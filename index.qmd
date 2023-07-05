@@ -1,11 +1,30 @@
 ---
-title: "vivekjason.github.io"
+title: " "
+image: images/vivekjason3.png
+about:
+  template: trestles
+  links:
+    - icon: twitter
+      url: "https://twitter.com/vivekjason87"
+    - icon: github
+      url: "https://github.com/vivekjason"
+    - icon: google
+      url: "https://scholar.google.com/citations?user=JjjMqJEAAAAJ&hl=en&authuser=1"
+    - icon: linkedin
+      url: "https://www.linkedin.com/in/vivek-jason-jayaraj-605a09139/"  
+    - icon: envelope
+      aria-label: email 
+      url: "mailto:vivekjason.j@moh.gov.my"
+comments: false
 ---
 
-This is a Quarto website.
+::: column-body
+<font size= "5"> **Hi, I am Vivek Jason Jayaraj** </font>
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+I am currently a gazetting Public Health Physician working at the National Institutes of Health Malaysia.
 
-```{r}
-1 + 1
-```
+My fields of interest lie in the intersection between data analytics, epidemiology, infectious disease and health systems. My experiences include projects revolving around the epidemiology of COVID-19, the utility of non-pharmaceutical interventions and the comparative effectiveness of health systems on COVID-19 transmission. I have been involved in developing mathematical, time-series and machine-learning models and analytics in forecasting infectious diseases, particularly dengue, COVID-19 and hand, foot and mouth disease (HFMD).
+
+I believe that it is within the synergism between data and compassion that we find a better future. As such I strive to decrease the latencies of data solutions within infectious disease and the health system.
+
+:::

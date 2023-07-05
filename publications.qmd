@@ -1,0 +1,125 @@
+---
+title: "Publications"
+editor: visual
+format:
+    html:
+        toc: true
+        toc-depth: 3
+---
+
+-   **Adaptive response of the COVID-19 surveillance system in Petaling district, Malaysia**
+
+    Vivek Jason Jayaraj, Patrick Peng Wee Yao, Nur Nabila Abd Rahim, Mohd Ali Imran, Nur Emmy Fizreena, Salina Md Taib, Zazarida Zakiman, Sudeash Rajakrishnan, Rubaan Raj Silverdurai, Mohd Azizan Asroh, Rama Krishna Supramanian, Mohd Paid Bin Yusof, Faridah Binti Amin, Lee Soo Cheng
+
+    Western Pacific Surveillance and Response Journal, March 2023
+
+-   [**Estimating excess mortalities due to the COVID-19 pandemic in Malaysia between January 2020 and September 2021**](https://www.nature.com/articles/s41598-022-26927-z)
+
+    Vivek Jason Jayaraj, Diane Woei-Quan Chong, Kim-Sui Wan, Noran Naqiah Hairi, Nirmala Bhoo-Pathy, Sanjay Rampal & Chiu-Wan Ng
+
+    Scientific Reports, January 2023
+
+-   [**Forecasting HFMD Cases Using Weather Variables and Google Search Queries in Sabah, Malaysia**](https://www.mdpi.com/1660-4601/19/24/16880/pdf)
+
+    Vivek Jason Jayaraj, Victor Hoe Chee Wai
+
+    International Journal of Environmental Research and Public Health, December 2022
+
+-   [**Estimating the infection burden of COVID-19 in Malaysia**](https://journals.plos.org/plosntds/article?id=10.1371/journal.pntd.0010887)
+
+    Vivek Jason Jayaraj, Ng Chiu-Wan, Awang Bulgiba, Mahesh Appanan, Sanjay Rampal
+
+    PLOS Neglected Tropical Diseases, November 2022
+
+-   [**Vaccines alone are no silver bullets: a modelling study on the impact of efficient contact tracing on COVID-19 infection and transmission in Malaysia**](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8992270/pdf/ihac005.pdf)
+
+    Dhesi Baha Raja, Nur Asheila Abdul Taib, Alvin Kuo Jing Teo, Vivek Jason Jayaraj, Choo-Yee Ting
+
+    International Health, March 2022
+
+-   [**Propagation of a hospital-associated cluster of COVID-19 in Malaysia**](https://bmcinfectdis.biomedcentral.com/articles/10.1186/s12879-021-06894-y)
+
+    Diane Woei‑Quan Chong, Vivek Jason Jayaraj, Chiu‑Wan Ng, I.‑Ching Sam, Mas Ayu Said, ... Sanjay Rampal
+
+    BMC Infectious Diseases, December 2021
+
+-   [**The epidemiology of COVID-19 in ten Southeast Asian countries**](https://www.e-mjm.org/2021/v76n6/epidemiology-of-COVID-19.pdf)
+
+    Sanjay Rampal, MBBS, PhD, Lekhraj Rampal, MBBS, DrPH, Vivek Jason Jayaraj, MPH, ...Sakda Arj-Ong Vallibhakara, MD, PhD
+
+    Malaysia Medical Journal, November 2021
+
+-   [**The Epidemiology of COVID-19 in Malaysia**](https://www.thelancet.com/journals/lanwpc/article/PIIS2666-6065(21)00204-2/fulltext)
+
+    Vivek Jason Jayaraj, Sanjay Rampal, Chiu-Wan Ng, Diane Woei Quan Chong
+
+    The Lancet Western Pacific, December 2021
+
+-   [**Establishment of a hospital-based healthcare workers surveillance programme to keep them safe during the COVID-19 pandemic**](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7714316/pdf/jogh-10-0203100.pdf)
+
+    Chong DW, Jayaraj VJ, Rampal S, Said MA, Farid NDN, Zaki RA, Hairi NN, Hoe VC, Isahak M, Ponnampalavanar S, Omar SFS, Sam IC, Hasnan N, Ong HC, Kamarulzaman A, Ng CW.
+
+    Journal of Global Health, December 2020
+
+-   [**Implementation of a COVID-19 surveillance programme for healthcare workers in a teaching hospital in an upper-middle-income country**](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9094549/pdf/pone.0268492.pdf)
+
+    Kim Sui Wan, Peter Seah Keng Tok, Kishwen Kanna Yoga Ratnam, ... Vivek Jason Jayaraj, ... Mas Ayu Said
+
+    PLOS One, April 2021
+
+-   [**Modelling the Effectiveness of Epidemic Control Measures in Preventing the Transmission of COVID-19 in Malaysia**](https://www.mdpi.com/1660-4601/17/15/5509/pdf)
+
+    Balvinder Singh Gill, Vivek Jason Jayaraj, Sarbhan Singh, Sumarni Mohd Ghazali, Yoon Ling Cheong, Nuur Hafizah Md Iderus, Bala Murali Sundram, Tahir Bin Aris, Hishamshah Mohd Ibrahim, Boon Hao Hong, Jane Labadin
+
+    International Journal of Environmental Research and Public Health, February 2020
+
+-   [**Developing a Dengue Prediction Model in Tawau, 2016**](https://www.sciencedirect.com/science/article/pii/S0001706X1930186X)
+
+    Vivek Jason, Richard Avoi, G. Navindran, Dhesi Baha Raja
+
+    Acta Tropica, September 2019
+
+-   [**An Artificial Intelligence-Driven Model to Assess Weather Variability & Aedes Population as Predictor Variables for Dengue Outbreak, 2017-2018**](https://mjphm.org/index.php/mjphm/article/download/176/41)
+
+    Dhesi Baha Raja, Rainier Mallol, Choo Yee Ting, Fadzilah Kamaludin, Vivek Jason
+
+    Malaysia Journal of Public Health Medicine, September 2019
+
+-   [**A Case of Autochthonous Malaria Transmission in Tawau, 2016**](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8415062/pdf/MWJ-08-16.pdf)
+
+    Vivek Jason, Dhesi Baha Raja, G. Navindran
+
+    Malaria World Journal - October 2017
+
+<br>
+
+```{=html}
+<center>
+    <a href="https://twitter.com/vivekjason87" target="_blank"><img src="images/twitter.png" alt="Img link to Twitter" width="35" height="35"></a>
+    
+    &nbsp; &nbsp;
+     <font color="#D3D3D3" size="5">  /  </font>
+    &nbsp; &nbsp;
+    
+    <a href="https://GitHub.com/vivekjason" target="_blank"><img src="images/github.png" alt="Img link to GitHub" width="40" height="40"></a>
+    
+    &nbsp; &nbsp;
+    <font color="#D3D3D3" size="5">  /  </font>
+    &nbsp; &nbsp;
+    
+    <a href="https://scholar.google.com/citations?user=JjjMqJEAAAAJ&hl=en&authuser=1" target="_blank"><img src="images/google.png" alt="Img link to Google Scholar" width="40" height="40"></a>
+    
+    &nbsp; &nbsp;
+    <font color="#D3D3D3" size="5">  /  </font>
+    &nbsp; &nbsp;
+    
+    <a href="https://www.linkedin.com/in/vivek-jason-jayaraj-605a09139/" target="_blank"><img src="images/linkedin.png" alt="Img link to Linkedin" width="40" height="40"></a>
+    
+    &nbsp; &nbsp;
+    <font color="#D3D3D3" size="5">  /  </font>
+    &nbsp; &nbsp;
+    
+
+    <a href="mailto:vivekjason.j@moh.gov.m" target="_blank"><img src="images/email.png" alt="Img link to Email" width="40" height="40"></a>
+</center> 
+```

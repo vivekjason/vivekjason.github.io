@@ -7,7 +7,7 @@ format:
         toc-depth: 3
 ---
 
--   **Toast and Transmission: A Breakfast Blend of Numbers, Narratives, and Novel Solutions**
+-   **Epidemiologic Espresso: Waking up to Data-drive COVID-19 Control**
 
     Vivek Jason Jayaraj
 
@@ -15,6 +15,9 @@ format:
 
     13 July 2023
 
+```{=html}
+<p align="center"><iframe width="560" height="315" src="https://www.youtube.com/watch?v=dnu5a53zd3s&list=PL2-K3HijZJqjk06P6awUu6KXnNvrA-7_2&index=43" frameborder="0" allowfullscreen></iframe></p>
+```
 -   [**A warning on Waning: The duration of Vaccine derived immunity in Malaysia**](https://www.sciencedirect.com/science/article/pii/S1201971223004988)
 
     Vivek Jason Jayaraj, Sanjay Rampal

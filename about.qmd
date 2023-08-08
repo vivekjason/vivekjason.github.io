@@ -1,0 +1,111 @@
+---
+title: "About"
+---
+
+## Education
+
+-   **Doctorate in Public Health**
+
+    University Malaya
+
+    September 2019- November 2022
+
+```{=html}
+<p align="center"><iframe width="560" height="315" src="https://youtu.be/A45V9e06Ijc" frameborder="0" allowfullscreen></iframe></p>
+```
+-   **Master's in Public Health**
+
+    University Malaya
+
+    August 2018- August 2019
+
+-   **Medical Degree**
+
+    Universitas Padjadjaran
+
+    August 2007- August 2013
+
+-   **A-Levels (Cambridge)**
+
+    Disted-Stamford College
+
+    June 2005- Dec 2006
+
+-   **Sijil Pelajaran Malaysia**
+
+    Methodist Boys School, Penang
+
+    2000-2004
+
+## Professional Experience
+
+-   **Gazetting Public Health Specialist**
+
+    Biostatistics and Data Repository Sector, National Institutes of Health, Malaysia
+
+    September 2022- to date
+
+-   **Guest Lecturer**
+
+    International Medical University
+
+    March 2023
+
+-   **Public Health scholar**
+
+    Ministry of Health Malaysia
+
+    September 2018-August 2022
+
+-   **Medical/ Public health Officer in Center for Disease Control (CDC)**
+
+    Medical Officer in Klinik Kesihatan (KK) Tawau/ Travelling Clinic/ Prison Clinic
+
+    Head of the Tawau Health Office Center for Clinical Research
+
+    Head Auditor for ISO 9001:2015 Internal Audit 2017 for the Tawau district health clinics and offices
+
+    Tawau District Health Clinic and Office
+
+    December 2015- August 2018
+
+-   **House Officer**
+
+    6 Department Rotation- Surgical, Medical, Obstetrics and Gynaecology, Emergency, Orthopaedics and Paediatrics with no extensions
+
+    Queen Elizabeth General Hospital, Kota Kinabalu, Sabah
+
+    December 2013 -- December 2015
+
+<br>
+
+```{=html}
+<center>
+    <a href="https://twitter.com/vivekjason87" target="_blank"><img src="images/twitter.png" alt="Img link to Twitter" width="35" height="35"></a>
+    
+    &nbsp; &nbsp;
+     <font color="#D3D3D3" size="5">  /  </font>
+    &nbsp; &nbsp;
+    
+    <a href="https://GitHub.com/vivekjason" target="_blank"><img src="images/github.png" alt="Img link to GitHub" width="40" height="40"></a>
+    
+    &nbsp; &nbsp;
+    <font color="#D3D3D3" size="5">  /  </font>
+    &nbsp; &nbsp;
+    
+    <a href="https://scholar.google.com/citations?user=JjjMqJEAAAAJ&hl=en&authuser=1" target="_blank"><img src="images/google.png" alt="Img link to Google Scholar" width="40" height="40"></a>
+    
+    &nbsp; &nbsp;
+    <font color="#D3D3D3" size="5">  /  </font>
+    &nbsp; &nbsp;
+    
+    <a href="https://www.linkedin.com/in/vivek-jason-jayaraj-605a09139/" target="_blank"><img src="images/linkedin.png" alt="Img link to Linkedin" width="40" height="40"></a>
+    
+    &nbsp; &nbsp;
+    <font color="#D3D3D3" size="5">  /  </font>
+    &nbsp; &nbsp;
+    
+
+    <a href="mailto:vivekjason.j@moh.gov.m" target="_blank"><img src="images/email.png" alt="Img link to Email" width="40" height="40"></a>
+</center> 
+```

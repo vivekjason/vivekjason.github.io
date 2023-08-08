@@ -1,0 +1,69 @@
+---
+title: "Training"
+editor: visual
+format:
+    html:
+        toc: true
+        toc-depth: 3
+---
+
+-   [**Statistical Computing in R (Beginner-Intermediate)**](https://vivekjason.github.io/StatsComputingR_sbdr2023/)
+
+    Trainer
+
+    National Institutes of Health
+
+    10 July- 11 July 2023
+
+-   [**Machine Learning for Health in R Workshop**](https://vivekjason.github.io/machine_learning_sbdr2023/)
+
+    Trainer
+
+    Big Data Center, Biostatistics and Data Repository Sector, National Institutes of Health
+
+    December 2022- June 2023
+
+-   **How to speak Medicalese: A Beginners Guide to Understanding Medical Ontology**
+
+    Guest Lecturer, Undergraduate in Digital Health,
+
+    International Medical University Malaysia
+
+-   **Workshop: Introduction to R**
+
+    Trainer
+
+    Asia-Pacific Conference in Public Health, 2019
+
+<br>
+
+```{=html}
+<center>
+    <a href="https://twitter.com/vivekjason87" target="_blank"><img src="images/twitter.png" alt="Img link to Twitter" width="35" height="35"></a>
+    
+    &nbsp; &nbsp;
+     <font color="#D3D3D3" size="5">  /  </font>
+    &nbsp; &nbsp;
+    
+    <a href="https://GitHub.com/vivekjason" target="_blank"><img src="images/github.png" alt="Img link to GitHub" width="40" height="40"></a>
+    
+    &nbsp; &nbsp;
+    <font color="#D3D3D3" size="5">  /  </font>
+    &nbsp; &nbsp;
+    
+    <a href="https://scholar.google.com/citations?user=JjjMqJEAAAAJ&hl=en&authuser=1" target="_blank"><img src="images/google.png" alt="Img link to Google Scholar" width="40" height="40"></a>
+    
+    &nbsp; &nbsp;
+    <font color="#D3D3D3" size="5">  /  </font>
+    &nbsp; &nbsp;
+    
+    <a href="https://www.linkedin.com/in/vivek-jason-jayaraj-605a09139/" target="_blank"><img src="images/linkedin.png" alt="Img link to Linkedin" width="40" height="40"></a>
+    
+    &nbsp; &nbsp;
+    <font color="#D3D3D3" size="5">  /  </font>
+    &nbsp; &nbsp;
+    
+
+    <a href="mailto:vivekjason.j@moh.gov.m" target="_blank"><img src="images/email.png" alt="Img link to Email" width="40" height="40"></a>
+</center> 
+```

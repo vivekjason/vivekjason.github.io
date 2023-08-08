@@ -16,7 +16,7 @@ format:
     13 July 2023
 
 ```{=html}
-<p align="center"><iframe width="560" height="315" src="https://www.youtube.com/watch?v=dnu5a53zd3s&list=PL2-K3HijZJqjk06P6awUu6KXnNvrA-7_2&index=43" frameborder="0" allowfullscreen></iframe></p>
+<p align="center"><iframe width="560" height="315" src="https://www.youtube.com/embed/dnu5a53zd3s?list=PL2-K3HijZJqjk06P6awUu6KXnNvrA-7_2" title="Epidemiologic Espresso: Waking up to Data-drive COVID-19 Control" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
 ```
 -   [**A warning on Waning: The duration of Vaccine derived immunity in Malaysia**](https://www.sciencedirect.com/science/article/pii/S1201971223004988)
 

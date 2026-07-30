@@ -1,31 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://vivekjason.github.io/about.html</loc>
-    <lastmod>2023-08-08T11:06:14.759Z</lastmod>
+    <loc>https://www.vivekjason.com/projects.html</loc>
+    <lastmod>2026-07-30T16:26:48.278Z</lastmod>
   </url>
   <url>
-    <loc>https://vivekjason.github.io/blog.html</loc>
-    <lastmod>2023-08-08T11:06:15.386Z</lastmod>
+    <loc>https://www.vivekjason.com/cv/cv_onepage_draft.html</loc>
+    <lastmod>2026-07-30T16:26:48.241Z</lastmod>
   </url>
   <url>
-    <loc>https://vivekjason.github.io/index.html</loc>
-    <lastmod>2023-08-08T11:06:16.018Z</lastmod>
+    <loc>https://www.vivekjason.com/training.html</loc>
+    <lastmod>2026-07-30T16:26:48.279Z</lastmod>
   </url>
   <url>
-    <loc>https://vivekjason.github.io/projects.html</loc>
-    <lastmod>2023-08-08T11:06:16.633Z</lastmod>
+    <loc>https://www.vivekjason.com/cv.html</loc>
+    <lastmod>2026-07-30T16:26:48.241Z</lastmod>
   </url>
   <url>
-    <loc>https://vivekjason.github.io/publications.html</loc>
-    <lastmod>2023-08-08T11:06:17.250Z</lastmod>
+    <loc>https://www.vivekjason.com/about.html</loc>
+    <lastmod>2026-07-30T16:26:48.241Z</lastmod>
   </url>
   <url>
-    <loc>https://vivekjason.github.io/talks.html</loc>
-    <lastmod>2023-08-08T11:06:17.868Z</lastmod>
+    <loc>https://www.vivekjason.com/publications.html</loc>
+    <lastmod>2026-07-30T16:26:48.279Z</lastmod>
   </url>
   <url>
-    <loc>https://vivekjason.github.io/training.html</loc>
-    <lastmod>2023-08-08T11:06:18.446Z</lastmod>
+    <loc>https://www.vivekjason.com/talks.html</loc>
+    <lastmod>2026-07-30T16:26:48.279Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.vivekjason.com/writing.html</loc>
+    <lastmod>2026-07-30T16:26:48.279Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.vivekjason.com/index.html</loc>
+    <lastmod>2026-07-30T16:26:48.278Z</lastmod>
   </url>
 </urlset>

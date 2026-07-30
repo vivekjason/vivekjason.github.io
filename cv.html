@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Publications — Vivek Jason Jayaraj – Vivek Jason Jayaraj</title>
+<title>CV — Vivek Jason Jayaraj – Vivek Jason Jayaraj</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -273,7 +273,7 @@ ul.task-list li input[type="checkbox"] {
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./publications.html" aria-current="page"> 
+    <a class="nav-link" href="./publications.html"> 
 <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
@@ -293,7 +293,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Writing</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./cv.html"> 
+    <a class="nav-link active" href="./cv.html" aria-current="page"> 
 <span class="menu-text">CV</span></a>
   </li>  
   <li class="nav-item compact">
@@ -315,22 +315,23 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    <div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="cv.pdf"><i class="bi bi-file-pdf"></i>Typst</a></li></ul></div></div>
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Publications</h1>
+<h1 class="title">Curriculum Vitae</h1>
 </div>
 
 
 
-<div class="quarto-title-meta column-page">
+<div class="quarto-title-meta">
 
     
   
@@ -342,150 +343,61 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div class="vjp">
-  <p class="vjp-lede">Peer-reviewed research across COVID-19, dengue &amp; HFMD, vaccine effectiveness, machine learning for health, and health systems. Search the register, filter by subject, or sort. Citation counts are pulled live from <a href="https://openalex.org" target="_blank" rel="noopener">OpenAlex</a>.</p>
-
-  <div class="vjp-ctl">
-    <div class="vjp-seg" id="vjp-seg">
-      <button class="on" data-f="all">ALL</button>
-      <button data-f="COVID-19">COVID-19</button>
-      <button data-f="Vaccines">VACCINES</button>
-      <button data-f="Dengue &amp; HFMD">DENGUE/HFMD</button>
-      <button data-f="Machine Learning">ML</button>
-      <button data-f="Health Systems">SYSTEMS</button>
-    </div>
-    <label class="vjp-srch"><span class="vjp-mag">⚲</span><input id="vjp-q" placeholder="search titles, journals, co-authors…" aria-label="Search publications"></label>
-    <select id="vjp-sort" class="vjp-sort" aria-label="Sort">
-      <option value="new">Newest</option>
-      <option value="old">Oldest</option>
-      <option value="cited">Most cited</option>
-    </select>
-  </div>
-  <div class="vjp-count" id="vjp-count"></div>
-  <div id="vjp-list"></div>
+<div style="display:flex;gap:12px;flex-wrap:wrap;margin:0 0 1.4rem">
+<p><a href="cv.pdf" class="btn btn-primary" role="button">Download PDF</a> <a href="cv/cv_vivekjasonjayaraj_260721.docx" class="btn btn-outline-secondary" role="button">Full CV (Word)</a></p>
 </div>
-
-<style>
-.vjp{max-width:1080px;margin:0 auto}
-.vjp-lede{color:var(--vj-muted);max-width:70ch;font-size:1.02rem}
-.vjp-lede a{color:var(--vj-teal-2)}
-.vjp-ctl{display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin:22px 0 6px}
-.vjp-seg{display:flex;border:1px solid var(--vj-border-2);border-radius:8px;overflow:hidden;flex-wrap:wrap}
-.vjp-seg button{font-family:var(--bs-font-monospace);font-size:.72rem;letter-spacing:.03em;padding:8px 13px;background:var(--vj-surface);color:var(--vj-muted);border:0;border-right:1px solid var(--vj-border);cursor:pointer;transition:.14s;white-space:nowrap}
-.vjp-seg button:last-child{border-right:0}
-.vjp-seg button:hover{color:var(--bs-body-color)}
-.vjp-seg button.on{background:var(--vj-teal);color:#fff;font-weight:600}
-.vjp-srch{display:flex;align-items:center;gap:8px;border:1px solid var(--vj-border-2);border-radius:8px;background:var(--vj-surface);padding:0 12px;height:40px;flex:1;min-width:220px}
-.vjp-srch input{border:0;background:transparent;outline:0;color:var(--bs-body-color);font-family:var(--bs-font-monospace);font-size:.82rem;width:100%}
-.vjp-mag{color:var(--vj-faint);font-size:1rem}
-.vjp-sort{height:40px;border:1px solid var(--vj-border-2);background:var(--vj-surface);color:var(--bs-body-color);border-radius:8px;padding:0 10px;font-family:var(--bs-font-monospace);font-size:.76rem;cursor:pointer}
-.vjp-count{font-family:var(--bs-font-monospace);font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;color:var(--vj-faint);margin:10px 2px}
-.vjp-row{display:grid;grid-template-columns:48px 1fr auto;gap:18px;align-items:center;padding:18px 8px;border-bottom:1px solid var(--vj-border);transition:.14s}
-.vjp-row:hover{background:var(--vj-surface);padding-left:14px}
-.vjp-n{font-family:var(--bs-font-monospace);font-size:.76rem;color:var(--vj-faint)}
-.vjp-row h3{font-size:1.06rem;font-weight:600;letter-spacing:-.01em;margin:0}
-.vjp-row h3 a{color:inherit;text-decoration:none}
-.vjp-row h3 a:hover{color:var(--vj-teal-2)}
-.vjp-meta{display:flex;gap:10px;align-items:center;margin-top:6px;flex-wrap:wrap}
-.vjp-vk{font-family:var(--bs-font-monospace);font-size:.67rem;letter-spacing:.05em;text-transform:uppercase;color:var(--vj-teal-2);border:1px solid var(--vj-border-2);padding:2px 7px;border-radius:5px}
-.vjp-au{font-size:.82rem;color:var(--vj-muted)}
-.vjp-au b{color:var(--bs-body-color)}
-.vjp-right{display:flex;align-items:center;gap:18px}
-.vjp-yr{font-family:var(--bs-font-monospace);font-size:.82rem;color:var(--vj-muted);width:38px;text-align:right}
-.vjp-bar{width:64px;height:4px;background:var(--vj-surface-2);border-radius:3px;overflow:hidden}
-.vjp-bar span{display:block;height:100%;width:0;background:var(--vj-teal);transition:width .5s}
-.vjp-cite{text-align:right;min-width:44px}
-.vjp-cite .cv{font-family:var(--bs-font-monospace);font-size:1.1rem;font-weight:600}
-.vjp-cite .cl{font-family:var(--bs-font-monospace);font-size:.58rem;letter-spacing:.1em;text-transform:uppercase;color:var(--vj-faint)}
-.vjp-empty{padding:40px;text-align:center;font-family:var(--bs-font-monospace);font-size:.82rem;color:var(--vj-faint)}
-@media (max-width:720px){.vjp-row{grid-template-columns:30px 1fr}.vjp-right{display:none}}
-</style>
-
-<script>
-const VJP = [
- {t:"Building AI readiness for health in Southeast Asia",v:"Lancet Reg. Health – W. Pacific",y:2025,doi:"10.1016/j.lanwpc.2025.101762",cat:["Health Systems","Machine Learning"],lead:false,a:"Mengji Chen, Clive Tan, … <b>Vivek Jason Jayaraj</b>, Kidong Park"},
- {t:"Potential public health impact of updated COVID-19 vaccination strategies in Malaysia",v:"Pulmonary Therapy",y:2025,doi:"10.1007/s41030-025-00329-8",cat:["COVID-19","Vaccines"],lead:false,a:"Karan B. Thakkar, … Masliyana Husin, Peter Seah Keng Tok, <b>Vivek Jason Jayaraj</b>, … Ben Yarnoff"},
- {t:"Assessing the relative vaccine effectiveness of a fourth COVID-19 dose on hospitalisation: an emulated target trial",v:"Vaccine",y:2025,doi:"10.1016/j.vaccine.2025.127569",cat:["COVID-19","Vaccines"],lead:true,a:"<b>Vivek Jason Jayaraj</b>, Masliyana Husin, Peter Seah Keng Tok, … Sheamini Sivasampu"},
- {t:"A paradigm shift in health surveillance: preparing for the future of longevity",v:"Int. J. Public Health",y:2025,cat:["Health Systems"],lead:true,a:"<b>Vivek Jason Jayaraj</b>, Diane Woei-Quan Chong, … Karthikeyanathan Ramoo"},
- {t:"Estimating the impact of the COVID-19 pandemic on infectious disease notifications in Klang district, 2020–2022",v:"WPSAR",y:2025,doi:"10.5365/wpsar.2025.16.1.1097",cat:["COVID-19","Health Systems"],lead:true,a:"<b>Vivek Jason Jayaraj</b>, Diane Woei-Quan Chong, … Siti Rohana Saad"},
- {t:"A comparative analysis of machine-learning algorithms for automated ICD-10 coding in Malaysian death records",v:"Cureus",y:2025,doi:"10.7759/cureus.77342",cat:["Machine Learning","Health Systems"],lead:false,a:"Muhammad Naufal Nordin, <b>Vivek Jason Jayaraj</b>, … Mohd Azahadi Omar"},
- {t:"Logistic regression, gradient boosted trees, SVM and random forest for prediction of acute kidney injury requiring dialysis after cardiac surgery",v:"Int. J. Nephrol. Renovasc. Dis.",y:2024,doi:"10.2147/ijnrd.s461028",cat:["Machine Learning"],lead:false,a:"Evi Diana Omar, … <b>Vivek Jason Jayaraj</b>, Bak Leong Goh"},
- {t:"Exploration of COVID-19 data in Malaysia through mapper graph",v:"Netw. Model. Anal. Health Inform. Bioinform.",y:2024,doi:"10.1007/s13721-024-00472-3",cat:["COVID-19","Machine Learning"],lead:false,a:"Carey Yu-Fan Ling, Piau Phang, Siaw-Hong Liew, <b>Vivek Jason Jayaraj</b> & Benchawan Wiwatanapataphee"},
- {t:"A hierarchical cluster analysis for clinical profiling of tofacitinib treatment response in rheumatoid arthritis",v:"Clinical Rheumatology",y:2024,doi:"10.1007/s10067-024-07035-x",cat:["Machine Learning"],lead:false,a:"Sivakami Janahiraman, … <b>Vivek Jason Jayaraj</b>, … Chee Onn Leong"},
- {t:"Study protocol for a mixed methods approach to optimise colorectal cancer screening in Malaysia",v:"PLOS ONE",y:2024,doi:"10.1371/journal.pone.0299659",cat:["Health Systems"],lead:false,a:"Diane Woei-Quan Chong, <b>Vivek Jason Jayaraj</b>, … Sondi Sararaks"},
- {t:"Effectiveness of COVID-19 vaccines among children 6–11 years against hospitalisation during Omicron predominance in Malaysia",v:"Scientific Reports",y:2024,doi:"10.1038/s41598-024-55899-5",cat:["COVID-19","Vaccines"],lead:true,a:"<b>Vivek Jason Jayaraj</b>, Masliyana Husin, Jing Lian Suah, … Sheamini Sivasampu"},
- {t:"Rapidly scalable and low-cost public health surveillance reporting system for COVID-19",v:"BMJ Health & Care Informatics",y:2024,doi:"10.1136/bmjhci-2023-100759",cat:["COVID-19","Health Systems"],lead:true,a:"<b>Vivek Jason Jayaraj</b>, Chiu-Wan Ng, Victor Chee Wai Hoe, Diane Woei Quan Chong, Sanjay Rampal"},
- {t:"Does awareness of the Malaysian Health Plate associate with adequate fruit and vegetable intake among adults with NCDs?",v:"Nutrients",y:2023,cat:["Health Systems"],lead:false,a:"Lay Kim Tan, … <b>Vivek Jason Jayaraj</b>, Chee Cheong Kee"},
- {t:"Adaptive response of the COVID-19 surveillance system in Petaling district, Malaysia",v:"WPSAR",y:2023,cat:["COVID-19","Health Systems"],lead:true,a:"<b>Vivek Jason Jayaraj</b>, Patrick Peng Wee Yao, … Lee Soo Cheng"},
- {t:"Estimating excess mortalities due to the COVID-19 pandemic in Malaysia between January 2020 and September 2021",v:"Scientific Reports",y:2023,doi:"10.1038/s41598-022-26927-z",cat:["COVID-19"],lead:true,a:"<b>Vivek Jason Jayaraj</b>, Diane Woei-Quan Chong, Kim-Sui Wan, … Chiu-Wan Ng"},
- {t:"Estimating the infection burden of COVID-19 in Malaysia",v:"PLOS Negl. Trop. Diseases",y:2022,doi:"10.1371/journal.pntd.0010887",cat:["COVID-19"],lead:true,a:"<b>Vivek Jason Jayaraj</b>, Ng Chiu-Wan, Awang Bulgiba, Mahesh Appanan, Sanjay Rampal"},
- {t:"Forecasting HFMD cases using weather variables and Google search queries in Sabah, Malaysia",v:"Int. J. Environ. Res. Public Health",y:2022,doi:"10.3390/ijerph192416880",cat:["Dengue & HFMD","Machine Learning"],lead:true,a:"<b>Vivek Jason Jayaraj</b>, Victor Hoe Chee Wai"},
- {t:"Vaccines alone are no silver bullets: modelling the impact of efficient contact tracing on COVID-19 in Malaysia",v:"International Health",y:2022,doi:"10.1093/inthealth/ihac005",cat:["COVID-19","Vaccines"],lead:false,a:"Dhesi Baha Raja, Nur Asheila Abdul Taib, Alvin Kuo Jing Teo, <b>Vivek Jason Jayaraj</b>, Choo-Yee Ting"},
- {t:"The epidemiology of COVID-19 in Malaysia",v:"Lancet Reg. Health – W. Pacific",y:2021,doi:"10.1016/j.lanwpc.2021.100295",cat:["COVID-19"],lead:true,a:"<b>Vivek Jason Jayaraj</b>, Sanjay Rampal, Chiu-Wan Ng, Diane Woei Quan Chong"},
- {t:"The epidemiology of COVID-19 in ten Southeast Asian countries",v:"Med. J. Malaysia",y:2021,cat:["COVID-19"],lead:false,a:"Sanjay Rampal, Lekhraj Rampal, <b>Vivek Jason Jayaraj</b>, … Sakda Arj-Ong Vallibhakara"},
- {t:"Propagation of a hospital-associated cluster of COVID-19 in Malaysia",v:"BMC Infectious Diseases",y:2021,doi:"10.1186/s12879-021-06894-y",cat:["COVID-19"],lead:false,a:"Diane Woei-Quan Chong, <b>Vivek Jason Jayaraj</b>, Chiu-Wan Ng, … Sanjay Rampal"},
- {t:"Implementation of a COVID-19 surveillance programme for healthcare workers in a teaching hospital in an upper-middle-income country",v:"PLOS ONE",y:2022,doi:"10.1371/journal.pone.0268492",cat:["COVID-19","Health Systems"],lead:false,a:"Kim Sui Wan, Peter Seah Keng Tok, … <b>Vivek Jason Jayaraj</b>, … Mas Ayu Said"},
- {t:"Establishment of a hospital-based healthcare workers surveillance programme during the COVID-19 pandemic",v:"J. Global Health",y:2020,doi:"10.7189/jogh.10.020310",cat:["COVID-19","Health Systems"],lead:false,a:"Chong DW, <b>Jayaraj VJ</b>, Rampal S, … Ng CW"},
- {t:"Modelling the effectiveness of epidemic control measures in preventing COVID-19 transmission in Malaysia",v:"Int. J. Environ. Res. Public Health",y:2020,doi:"10.3390/ijerph17155509",cat:["COVID-19"],lead:false,a:"Balvinder Singh Gill, <b>Vivek Jason Jayaraj</b>, Sarbhan Singh, … Jane Labadin"},
- {t:"Developing a dengue prediction model in Tawau, 2016",v:"Acta Tropica",y:2019,doi:"10.1016/j.actatropica.2019.05.008",cat:["Dengue & HFMD","Machine Learning"],lead:true,a:"<b>Vivek Jason Jayaraj</b>, Richard Avoi, G. Navindran, Dhesi Baha Raja"},
- {t:"An AI-driven model to assess weather variability & Aedes population as predictors for dengue outbreak",v:"Malays. J. Public Health Med.",y:2019,doi:"10.37268/mjphm/vol.19/no.2/art.176",cat:["Dengue & HFMD","Machine Learning"],lead:false,a:"Dhesi Baha Raja, Rainier Mallol, Choo Yee Ting, Fadzilah Kamaludin, <b>Vivek Jason Jayaraj</b>"},
- {t:"A case of autochthonous malaria transmission in Tawau, 2016",v:"Malaria World Journal",y:2017,cat:["Health Systems"],lead:true,a:"<b>Vivek Jason Jayaraj</b>, Dhesi Baha Raja, G. Navindran"}
-];
-
-(function(){
-  const listEl=document.getElementById('vjp-list'), q=document.getElementById('vjp-q'),
-        sortEl=document.getElementById('vjp-sort'), countEl=document.getElementById('vjp-count');
-  let f="all";
-  const link=p=> p.doi ? 'https://doi.org/'+p.doi
-        : p.url ? p.url
-        : 'https://scholar.google.com/scholar?q='+encodeURIComponent(p.t);
-  function maxCite(){return Math.max(1,...VJP.map(p=>p.c||0));}
-  function render(){
-    const term=q.value.trim().toLowerCase();
-    let list=VJP.map((p,i)=>({p,i})).filter(({p})=>(f==="all"||p.cat.includes(f)) &&
-        (!term||(p.t+" "+p.v+" "+p.a).toLowerCase().includes(term)));
-    const s=sortEl.value;
-    list.sort((A,B)=> s==="old"?A.p.y-B.p.y : s==="cited"?((B.p.c||0)-(A.p.c||0)) : B.p.y-A.p.y);
-    const mx=maxCite();
-    countEl.textContent = list.length+" of "+VJP.length+" publications";
-    listEl.innerHTML = list.length ? list.map(({p},k)=>`
-      <div class="vjp-row">
-        <span class="vjp-n">${String(k+1).padStart(2,'0')}</span>
-        <div>
-          <h3><a href="${link(p)}" target="_blank" rel="noopener">${p.t}</a></h3>
-          <div class="vjp-meta"><span class="vjp-vk">${p.v}</span>${p.lead?'<span class="vjp-vk" style="color:var(--vj-faint)">first author</span>':''}<span class="vjp-au">${p.a}</span></div>
-        </div>
-        <div class="vjp-right">
-          <span class="vjp-yr">${p.y}</span>
-          <div class="vjp-bar"><span style="width:${p.c?Math.round((p.c/mx)*100):0}%"></span></div>
-          <div class="vjp-cite"><div class="cv">${p.c==null?'·':p.c}</div><div class="cl">cites</div></div>
-        </div>
-      </div>`).join('') : '<div class="vjp-empty">No publications match your search.</div>';
-  }
-  document.getElementById('vjp-seg').addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;
-    document.querySelectorAll('#vjp-seg button').forEach(x=>x.classList.remove('on'));b.classList.add('on');
-    f=b.dataset.f.replace('&amp;','&');render();});
-  q.addEventListener('input',render); sortEl.addEventListener('change',render);
-  render();
-
-  // Live citation counts from OpenAlex (batched by DOI)
-  const dois=VJP.filter(p=>p.doi).map(p=>p.doi);
-  if(dois.length){
-    const url='https://api.openalex.org/works?per_page=200&select=doi,cited_by_count&filter=doi:'+dois.join('|');
-    fetch(url).then(r=>r.ok?r.json():null).then(d=>{
-      if(!d||!d.results)return;
-      const by={};
-      d.results.forEach(w=>{ if(w.doi){const k=w.doi.replace('https://doi.org/','').toLowerCase(); by[k]=w.cited_by_count;} });
-      VJP.forEach(p=>{ if(p.doi && by[p.doi.toLowerCase()]!=null) p.c=by[p.doi.toLowerCase()]; });
-      render();
-    }).catch(()=>{});
-  }
-})();
-</script>
-
-<br>
+<blockquote class="blockquote">
+<p>A one-page highlights version. Use <strong>Download PDF</strong> for the succinct CV, or <strong>Full CV</strong> for the complete record.</p>
+</blockquote>
+<p><strong>Public Health Physician · Data Scientist</strong> — digital health &amp; epidemiology Kuala Lumpur, Malaysia · <a href="mailto:vivekjason1987@gmail.com">vivekjason1987@gmail.com</a> · <a href="https://www.vivekjason.com">vivekjason.com</a> · <a href="https://orcid.org/0000-0002-8131-9878">ORCID 0000-0002-8131-9878</a> · <a href="https://scholar.google.com/citations?user=JjjMqJEAAAAJ&amp;hl=en">Google Scholar</a></p>
+<p>I’m a public health physician and data scientist. Most of my current work at the Ministry of Health Malaysia is in digital health — health-data interoperability and enterprise data analytics — alongside continuing research in epidemiology and infectious disease.</p>
+<section id="experience" class="level2">
+<h2 class="anchored" data-anchor-id="experience">Experience</h2>
+<ul>
+<li><strong>Deputy Director, Analytics &amp; Informatics</strong> — Digital Health Division, Ministry of Health Malaysia · <em>2024–present</em> Health-data interoperability and enterprise data analytics across the ministry.</li>
+<li><strong>Public Health Specialist</strong> — Sector for Biostatistics &amp; Data Repository, National Institutes of Health · <em>2022–2024</em></li>
+<li><strong>Guest Lecturer / Workshop Trainer</strong> — Universiti Malaya &amp; International Medical University · <em>2023–present</em></li>
+<li><strong>Instructor</strong> — Applied Epidemiology (Applied Epi / WHO WPRO) · <em>2023–present</em></li>
+</ul>
+</section>
+<section id="education" class="level2">
+<h2 class="anchored" data-anchor-id="education">Education</h2>
+<ul>
+<li><strong>DrPH</strong>, Doctorate in Public Health — Universiti Malaya · <em>2019–2022</em></li>
+<li><strong>MPH</strong>, Master of Public Health — Universiti Malaya · <em>2018–2019</em></li>
+<li><strong>MD</strong>, Medical Degree — Universitas Padjadjaran · <em>2007–2013</em></li>
+</ul>
+</section>
+<section id="selected-publications-of-27-first-author-unless-noted" class="level2">
+<h2 class="anchored" data-anchor-id="selected-publications-of-27-first-author-unless-noted">Selected publications <em>(of 27 · first author unless noted)</em></h2>
+<ul>
+<li>Assessing the relative vaccine effectiveness of a fourth COVID-19 dose on hospitalisation: an emulated target trial — <em>Vaccine</em>, 2025</li>
+<li>Effectiveness of COVID-19 vaccines among children 6–11 years during Omicron predominance — <em>Scientific Reports</em>, 2024</li>
+<li>A rapidly scalable, low-cost public-health surveillance reporting system for COVID-19 — <em>BMJ Health &amp; Care Informatics</em>, 2024</li>
+<li>Building AI readiness for health in Southeast Asia <em>(co-author)</em> — <em>Lancet Regional Health – W. Pacific</em>, 2025</li>
+<li>Estimating excess mortalities due to the COVID-19 pandemic in Malaysia — <em>Scientific Reports</em>, 2023</li>
+<li>The epidemiology of COVID-19 in Malaysia — <em>Lancet Regional Health – W. Pacific</em>, 2021</li>
+</ul>
+</section>
+<section id="awards" class="level2">
+<h2 class="anchored" data-anchor-id="awards">Awards</h2>
+<ul>
+<li>Wu Lien-Teh Best Public Health Student Award · <em>2024</em></li>
+<li>Best Oral Presenter &amp; Young Investigator Travel Award, 53rd APACPH Conference · <em>2022</em></li>
+<li>SISMID Summer Institute Scholarship, University of Washington · <em>2022</em></li>
+<li>Ministry of Health Postgraduate Scholarship · <em>2018–2022</em></li>
+</ul>
+</section>
+<section id="skills" class="level2">
+<h2 class="anchored" data-anchor-id="skills">Skills</h2>
+<p>Data science · R &amp; Python · Health-data interoperability · Enterprise data analytics · Epidemiology · Biostatistics · Infectious-disease modelling · Surveillance systems</p>
+</section>
+<section id="selected-speaking" class="level2">
+<h2 class="anchored" data-anchor-id="selected-speaking">Selected speaking</h2>
+<p>APRU Conference 2025 · UNU Macau AI Conference 2025 · WHO WPRO R / Applied-Epi trainer · World Bank Health Insurance Claims Data workshop 2025</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

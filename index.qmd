@@ -24,11 +24,11 @@ anchor-sections: false
           <div class="vjx-chip"><b>40+</b><span>Talks / workshops</span></div>
         </div>
       </div>
-      <div class="vjx-aura-wrap">
-        <canvas class="vjx-aura" aria-hidden="true"></canvas>
-        <div class="vjx-pframe">
-          <img src="images/vivekjason3.png" alt="Vivek Jason Jayaraj" onerror="this.style.display='none'">
-        </div>
+      <div class="vjx-figure">
+        <picture>
+          <source srcset="images/vivek-hero.webp" type="image/webp">
+          <img src="images/vivek-hero.png" alt="Vivek Jason Jayaraj — public health physician" onerror="this.style.display='none'">
+        </picture>
       </div>
     </div>
   </section>
@@ -56,41 +56,23 @@ anchor-sections: false
 .vjx-chip{border:1px solid var(--vj-border-2);background:var(--vj-surface);border-radius:9px;padding:9px 14px;font-family:var(--bs-font-monospace)}
 .vjx-chip b{font-size:1.2rem;font-weight:600}
 .vjx-chip span{display:block;font-size:.58rem;letter-spacing:.1em;text-transform:uppercase;color:var(--vj-faint);margin-top:2px}
-.vjx-aura-wrap{position:relative;display:grid;place-items:center;min-height:340px}
-.vjx-aura{position:absolute;inset:0;width:100%;height:100%}
-.vjx-pframe{position:relative;z-index:2;width:236px;height:236px;border-radius:50%;overflow:hidden;border:2px solid var(--vj-teal);
-  background:var(--vj-surface-2);box-shadow:0 0 0 9px color-mix(in srgb,var(--vj-teal) 10%,transparent)}
-.vjx-pframe img{width:100%;height:100%;object-fit:cover}
-@media (max-width:860px){.vjx-in{grid-template-columns:1fr;gap:18px}.vjx-aura-wrap{min-height:280px}}
+.vjx-figure{position:relative;z-index:2;display:flex;justify-content:center;align-items:flex-end}
+.vjx-figure img{width:100%;max-width:440px;height:auto;
+  -webkit-mask-image:linear-gradient(to bottom,#000 84%,transparent 99%);
+  mask-image:linear-gradient(to bottom,#000 84%,transparent 99%);
+  filter:drop-shadow(0 12px 34px color-mix(in srgb,var(--vj-teal) 22%,transparent))}
+@media (max-width:860px){.vjx-in{grid-template-columns:1fr;gap:6px}.vjx-figure img{max-width:320px}}
 </style>
 
 <script>
 (function(){
   const root=document.documentElement, S=window.devicePixelRatio||1;
   const reduce=matchMedia('(prefers-reduced-motion:reduce)').matches;
-  const bg=document.querySelector('.vjx-bg'), au=document.querySelector('.vjx-aura');
-  if(!bg||!au) return;
-  const bx=bg.getContext('2d'), ax=au.getContext('2d');
+  const bg=document.querySelector('.vjx-bg');
+  if(!bg) return;
+  const bx=bg.getContext('2d');
   function v(n){return getComputedStyle(root).getPropertyValue(n).trim();}
-  function hex2rgb(h){h=h.replace('#','');if(h.length===3)h=h.split('').map(c=>c+c).join('');
-    return [parseInt(h.slice(0,2),16),parseInt(h.slice(2,4),16),parseInt(h.slice(4,6),16)];}
   let t=0;
-  function drawAura(){
-    au.width=au.clientWidth*S;au.height=au.clientHeight*S;
-    const w=au.width,h=au.height,cx=w/2,cy=h/2;ax.clearRect(0,0,w,h);
-    const acc=v('--vj-teal')||'#0C8478',[r,g,b]=hex2rgb(acc),rad=Math.min(w,h)/2;
-    const gl=ax.createRadialGradient(cx,cy,12*S,cx,cy,rad);
-    gl.addColorStop(0,`rgba(${r},${g},${b},.16)`);gl.addColorStop(.6,`rgba(${r},${g},${b},.05)`);gl.addColorStop(1,`rgba(${r},${g},${b},0)`);
-    ax.fillStyle=gl;ax.fillRect(0,0,w,h);
-    const N=36,inner=rad*0.44;
-    for(let i=0;i<N;i++){const a=i/N*Math.PI*2,osc=Math.abs(Math.sin(t*1.6+i*0.8));
-      const len=rad*0.30*(0.45+0.55*osc),wd=(Math.PI*2/N)*0.30;
-      const xt=cx+Math.cos(a)*(inner+len),yt=cy+Math.sin(a)*(inner+len);
-      const xa=cx+Math.cos(a-wd)*inner,ya=cy+Math.sin(a-wd)*inner;
-      const xb=cx+Math.cos(a+wd)*inner,yb=cy+Math.sin(a+wd)*inner;
-      ax.beginPath();ax.moveTo(xa,ya);ax.lineTo(xt,yt);ax.lineTo(xb,yb);ax.closePath();
-      ax.fillStyle=`rgba(${r},${g},${b},${0.05+0.14*osc})`;ax.fill();}
-  }
   function drawBg(){
     bg.width=bg.clientWidth*S;bg.height=bg.clientHeight*S;
     const w=bg.width,h=bg.height,grd=v('--vj-border')||'#E6EFEF',acc=v('--vj-teal')||'#0C8478';
@@ -104,10 +86,10 @@ anchor-sections: false
       bx.strokeStyle=acc;bx.globalAlpha=[.22,.38,.62][k];bx.lineWidth=(1.2+k*0.7)*S;bx.stroke();}
     bx.globalAlpha=1;
   }
-  function loop(){drawBg();drawAura();if(!reduce){t+=0.007;requestAnimationFrame(loop);}}
+  function loop(){drawBg();if(!reduce){t+=0.007;requestAnimationFrame(loop);}}
   loop();
-  addEventListener('resize',()=>{if(reduce){drawBg();drawAura();}});
-  new MutationObserver(()=>{drawBg();drawAura();}).observe(root,{attributes:true,attributeFilter:['class','data-bs-theme']});
+  addEventListener('resize',()=>{if(reduce){drawBg();}});
+  new MutationObserver(()=>{drawBg();}).observe(root,{attributes:true,attributeFilter:['class','data-bs-theme']});
 })();
 </script>
 ```

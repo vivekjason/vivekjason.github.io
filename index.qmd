@@ -1,30 +1,117 @@
 ---
-title: " "
-image: images/vivekjason3.png
-about:
-  template: trestles
-  links:
-    - icon: twitter
-      url: "https://twitter.com/vivekjason87"
-    - icon: github
-      url: "https://github.com/vivekjason"
-    - icon: google
-      url: "https://scholar.google.com/citations?user=JjjMqJEAAAAJ&hl=en&authuser=1"
-    - icon: linkedin
-      url: "https://www.linkedin.com/in/vivek-jason-jayaraj-605a09139/"  
-    - icon: envelope
-      aria-label: email 
-      url: "mailto:vivekjason.j@moh.gov.my"
-comments: false
+pagetitle: "Vivek Jason Jayaraj"
+page-layout: full
+toc: false
+anchor-sections: false
 ---
 
-::: column-body
-<font size= "5"> **Hi, I am Vivek Jason Jayaraj** </font>
+```{=html}
+<div class="vjx">
+  <section class="vjx-hero">
+    <canvas class="vjx-bg" aria-hidden="true"></canvas>
+    <div class="vjx-in">
+      <div class="vjx-copy">
+        <div class="vjx-kick"><span class="vjx-rule"></span><span class="vjx-eyebrow">Public health physician · data scientist</span></div>
+        <h1 class="vjx-h1">Helping health data<br><span class="vjx-accent">work together</span>.</h1>
+        <p class="vjx-sub">I'm a public health physician and data scientist. Most of my work these days is in digital health at Malaysia's Ministry of Health — health-data interoperability and enterprise analytics — alongside ongoing research in epidemiology and infectious disease.</p>
+        <div class="vjx-cta">
+          <a class="vjx-btn" href="publications.html">Explore the work</a>
+          <a class="vjx-btn vjx-g" href="cv/">Download CV</a>
+        </div>
+        <div class="vjx-chips">
+          <div class="vjx-chip"><b>27</b><span>Publications</span></div>
+          <div class="vjx-chip"><b>18</b><span>First author</span></div>
+          <div class="vjx-chip"><b>40+</b><span>Talks / workshops</span></div>
+        </div>
+      </div>
+      <div class="vjx-aura-wrap">
+        <canvas class="vjx-aura" aria-hidden="true"></canvas>
+        <div class="vjx-pframe">
+          <img src="images/vivekjason3.png" alt="Vivek Jason Jayaraj" onerror="this.style.display='none'">
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
 
-I am currently a gazetting Public Health Physician working at the National Institutes of Health Malaysia.
+<style>
+.vjx *{box-sizing:border-box}
+.vjx-hero{position:relative;overflow:hidden;margin:-1rem 0 0;padding:8px 0 20px}
+.vjx-bg{position:absolute;inset:0;width:100%;height:100%;opacity:.7;pointer-events:none}
+.vjx-in{position:relative;max-width:1160px;margin:0 auto;padding:36px 12px 20px;display:grid;grid-template-columns:1.5fr 1fr;gap:44px;align-items:center}
+.vjx-kick{display:flex;align-items:center;gap:14px;margin-bottom:20px}
+.vjx-rule{height:1px;width:56px;background:var(--vj-border-2)}
+.vjx-eyebrow{font-family:var(--bs-font-monospace);font-size:.7rem;letter-spacing:.26em;text-transform:uppercase;color:var(--vj-teal-2)}
+.vjx-h1{font-size:clamp(2.4rem,5.6vw,4.4rem);font-weight:700;line-height:1.02;letter-spacing:-.02em;text-transform:uppercase;margin:0}
+.vjx-accent{color:var(--vj-teal-2)}
+.vjx-sub{color:var(--vj-muted);font-size:1.06rem;max-width:46ch;margin:20px 0 0}
+.vjx-cta{display:flex;gap:12px;margin-top:26px;flex-wrap:wrap}
+.vjx-btn{display:inline-flex;align-items:center;gap:8px;font-family:var(--bs-font-monospace);font-size:.78rem;font-weight:600;
+  letter-spacing:.04em;text-transform:uppercase;padding:10px 16px;border-radius:8px;border:1px solid var(--vj-teal);
+  background:var(--vj-teal);color:#fff;text-decoration:none;transition:.15s}
+.vjx-btn:hover{background:var(--vj-teal-2);border-color:var(--vj-teal-2);color:#fff}
+.vjx-btn.vjx-g{background:transparent;color:var(--vj-teal-2);border-color:var(--vj-border-2)}
+.vjx-btn.vjx-g:hover{border-color:var(--vj-teal);color:var(--vj-teal-2)}
+.vjx-chips{display:flex;gap:10px;margin-top:30px;flex-wrap:wrap}
+.vjx-chip{border:1px solid var(--vj-border-2);background:var(--vj-surface);border-radius:9px;padding:9px 14px;font-family:var(--bs-font-monospace)}
+.vjx-chip b{font-size:1.2rem;font-weight:600}
+.vjx-chip span{display:block;font-size:.58rem;letter-spacing:.1em;text-transform:uppercase;color:var(--vj-faint);margin-top:2px}
+.vjx-aura-wrap{position:relative;display:grid;place-items:center;min-height:340px}
+.vjx-aura{position:absolute;inset:0;width:100%;height:100%}
+.vjx-pframe{position:relative;z-index:2;width:236px;height:236px;border-radius:50%;overflow:hidden;border:2px solid var(--vj-teal);
+  background:var(--vj-surface-2);box-shadow:0 0 0 9px color-mix(in srgb,var(--vj-teal) 10%,transparent)}
+.vjx-pframe img{width:100%;height:100%;object-fit:cover}
+@media (max-width:860px){.vjx-in{grid-template-columns:1fr;gap:18px}.vjx-aura-wrap{min-height:280px}}
+</style>
 
-My fields of interest lie in the intersection between data analytics, epidemiology, infectious disease and health systems. My experiences include projects revolving around the epidemiology of COVID-19, the utility of non-pharmaceutical interventions and the comparative effectiveness of health systems on COVID-19 transmission. I have been involved in developing mathematical, time-series and machine-learning models and analytics in forecasting infectious diseases, particularly dengue, COVID-19 and hand, foot and mouth disease (HFMD).
+<script>
+(function(){
+  const root=document.documentElement, S=window.devicePixelRatio||1;
+  const reduce=matchMedia('(prefers-reduced-motion:reduce)').matches;
+  const bg=document.querySelector('.vjx-bg'), au=document.querySelector('.vjx-aura');
+  if(!bg||!au) return;
+  const bx=bg.getContext('2d'), ax=au.getContext('2d');
+  function v(n){return getComputedStyle(root).getPropertyValue(n).trim();}
+  function hex2rgb(h){h=h.replace('#','');if(h.length===3)h=h.split('').map(c=>c+c).join('');
+    return [parseInt(h.slice(0,2),16),parseInt(h.slice(2,4),16),parseInt(h.slice(4,6),16)];}
+  let t=0;
+  function drawAura(){
+    au.width=au.clientWidth*S;au.height=au.clientHeight*S;
+    const w=au.width,h=au.height,cx=w/2,cy=h/2;ax.clearRect(0,0,w,h);
+    const acc=v('--vj-teal')||'#0C8478',[r,g,b]=hex2rgb(acc),rad=Math.min(w,h)/2;
+    const gl=ax.createRadialGradient(cx,cy,12*S,cx,cy,rad);
+    gl.addColorStop(0,`rgba(${r},${g},${b},.16)`);gl.addColorStop(.6,`rgba(${r},${g},${b},.05)`);gl.addColorStop(1,`rgba(${r},${g},${b},0)`);
+    ax.fillStyle=gl;ax.fillRect(0,0,w,h);
+    const N=36,inner=rad*0.44;
+    for(let i=0;i<N;i++){const a=i/N*Math.PI*2,osc=Math.abs(Math.sin(t*1.6+i*0.8));
+      const len=rad*0.30*(0.45+0.55*osc),wd=(Math.PI*2/N)*0.30;
+      const xt=cx+Math.cos(a)*(inner+len),yt=cy+Math.sin(a)*(inner+len);
+      const xa=cx+Math.cos(a-wd)*inner,ya=cy+Math.sin(a-wd)*inner;
+      const xb=cx+Math.cos(a+wd)*inner,yb=cy+Math.sin(a+wd)*inner;
+      ax.beginPath();ax.moveTo(xa,ya);ax.lineTo(xt,yt);ax.lineTo(xb,yb);ax.closePath();
+      ax.fillStyle=`rgba(${r},${g},${b},${0.05+0.14*osc})`;ax.fill();}
+  }
+  function drawBg(){
+    bg.width=bg.clientWidth*S;bg.height=bg.clientHeight*S;
+    const w=bg.width,h=bg.height,grd=v('--vj-border')||'#E6EFEF',acc=v('--vj-teal')||'#0C8478';
+    bx.clearRect(0,0,w,h);bx.strokeStyle=grd;bx.lineWidth=1;
+    for(let x=0;x<w;x+=40*S){bx.beginPath();bx.moveTo(x,0);bx.lineTo(x,h);bx.stroke();}
+    for(let y=0;y<h;y+=40*S){bx.beginPath();bx.moveTo(0,y);bx.lineTo(w,y);bx.stroke();}
+    for(let k=0;k<3;k++){bx.beginPath();
+      for(let x=0;x<=w;x+=7){const env=Math.exp(-Math.pow((x/w-0.5),2)*2.2);
+        const y=h*(0.55+k*0.11)-(Math.sin(x*0.008+t*(1+k*0.4)+k*2)*(30+k*22)*S)*env;
+        x?bx.lineTo(x,y):bx.moveTo(x,y);}
+      bx.strokeStyle=acc;bx.globalAlpha=[.22,.38,.62][k];bx.lineWidth=(1.2+k*0.7)*S;bx.stroke();}
+    bx.globalAlpha=1;
+  }
+  function loop(){drawBg();drawAura();if(!reduce){t+=0.007;requestAnimationFrame(loop);}}
+  loop();
+  addEventListener('resize',()=>{if(reduce){drawBg();drawAura();}});
+  new MutationObserver(()=>{drawBg();drawAura();}).observe(root,{attributes:true,attributeFilter:['class','data-bs-theme']});
+})();
+</script>
+```
 
-I believe that it is within the synergism between data and compassion that we find a better future. As such I strive to decrease the latencies of data solutions within infectious disease and the health system.
-
+::: {.column-body style="max-width:1160px;margin:2.2rem auto 0;"}
+I believe it's within the synergism between data and compassion that we find a better future — so I try to shorten the distance between evidence and action across infectious disease and the health system. Recent work spans COVID-19 vaccine effectiveness, dengue and HFMD forecasting, excess-mortality estimation, and health-data interoperability at national scale.
 :::

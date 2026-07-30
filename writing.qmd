@@ -1,0 +1,23 @@
+---
+title: "Writing"
+subtitle: "Essays on data, epidemiology and the health system — penned on Substack, gathered here."
+---
+
+::: {.callout-note appearance="minimal"}
+**Substack coming soon.** Once it's live, this page will feature the latest essay and list recent posts automatically. Add your Substack URL in `_quarto.yml`/this page to switch it on.
+:::
+
+## Latest
+
+-   **[Your latest article title]** — *featured*
+    A one-line blurb pulled from the post. Send the link and this becomes the headline entry.
+
+<br>
+
+<a class="btn btn-primary" href="#" role="button">Subscribe on Substack</a>
+
+<!--
+  When the Substack exists, replace the block above with either:
+  (a) a Quarto listing over an imported RSS feed, or
+  (b) hand-authored entries linking to each post.
+-->

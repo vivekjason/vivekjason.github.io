@@ -2,8 +2,10 @@ project:
   type: website
 
 website:
-  title: " "
+  title: "Vivek Jason Jayaraj"
+  favicon: images/vivekjason2.png
   navbar:
+    logo: ""
     left:
       - href: index.qmd
         text: Home
@@ -15,19 +17,32 @@ website:
       - href: projects.qmd
         text: Projects
       - href: training.qmd
-        text: Training        
+        text: Training
       - href: talks.qmd
         text: Talks
-      - href: blog.qmd
-        text: Blog
+      - href: writing.qmd
+        text: Writing
       - icon: github
         href: https://github.com/vivekjason
-      - icon: twitter
-        href: https://twitter.com/vivekjason87
+      - icon: twitter-x
+        href: https://twitter.com/vivekjason1987
+  page-footer:
+    left: "© 2026 Vivek Jason Jayaraj · built with Quarto"
+    right:
+      - icon: github
+        href: https://github.com/vivekjason
+      - icon: linkedin
+        href: https://www.linkedin.com/in/vivek-jason-jayaraj-605a09139/
+      - icon: twitter-x
+        href: https://twitter.com/vivekjason1987
+
 format:
   html:
-    theme: litera
+    theme:
+      light: [cosmo, theme.scss]
+      dark: [cosmo, theme-dark.scss]
     css: styles.css
+    toc: true
 
 editor: visual
 

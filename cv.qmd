@@ -23,7 +23,7 @@ format:
 :::
 
 **Public Health Physician · Data Scientist** — digital health & epidemiology
-Kuala Lumpur, Malaysia · [vivekjason.com](https://www.vivekjason.com) · [ORCID 0000-0002-8131-9878](https://orcid.org/0000-0002-8131-9878) · [Google Scholar](https://scholar.google.com/citations?user=JjjMqJEAAAAJ&hl=en)
+Kuala Lumpur, Malaysia · [vivekjason1987@gmail.com](mailto:vivekjason1987@gmail.com) · [vivekjason.com](https://www.vivekjason.com) · [ORCID 0000-0002-8131-9878](https://orcid.org/0000-0002-8131-9878) · [Google Scholar](https://scholar.google.com/citations?user=JjjMqJEAAAAJ&hl=en)
 
 I'm a public health physician and data scientist. Most of my current work at the Ministry of Health Malaysia is in digital health — health-data interoperability and enterprise data analytics — alongside continuing research in epidemiology and infectious disease.
 

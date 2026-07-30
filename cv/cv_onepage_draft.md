@@ -1,7 +1,7 @@
 # Vivek Jason Jayaraj
 **Public Health Physician · Data Scientist — digital health & epidemiology**
 
-Kuala Lumpur, Malaysia · www.vivekjason.com · vivekjason.j@moh.gov.my
+Kuala Lumpur, Malaysia · www.vivekjason.com · vivekjason1987@gmail.com
 ORCID 0000-0002-8131-9878 · Google Scholar · LinkedIn · X @vivekjason1987
 
 > A public health physician and data scientist. Most of my current work at the Ministry of Health

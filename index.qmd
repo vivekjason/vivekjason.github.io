@@ -16,7 +16,7 @@ anchor-sections: false
         <p class="vjx-sub">I'm a public health physician and data scientist. Most of my work these days is in digital health at Malaysia's Ministry of Health — health-data interoperability and enterprise analytics — alongside ongoing research in epidemiology and infectious disease.</p>
         <div class="vjx-cta">
           <a class="vjx-btn" href="publications.html">Explore the work</a>
-          <a class="vjx-btn vjx-g" href="cv/">Download CV</a>
+          <a class="vjx-btn vjx-g" href="cv.html">Download CV</a>
         </div>
         <div class="vjx-chips">
           <div class="vjx-chip"><b>27</b><span>Publications</span></div>

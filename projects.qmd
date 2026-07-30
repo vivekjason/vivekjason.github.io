@@ -1,5 +1,6 @@
 ---
 title: "Projects"
+pagetitle: "Projects — Vivek Jason Jayaraj"
 editor: visual
 format:
     html:
@@ -7,107 +8,46 @@ format:
         toc-depth: 3
 ---
 
--   **Colorectal Pathways Project: Precision Public Health approach to optimising Colorectal Screening**
+-   **Automated Public Health Reports**
 
-    Institute for Health Systems Research, Biostatistics and Data Repository Centre National Institutes of Health, Disease Control Division Ministry of Health
+    Lead Analyst · from November 2025
 
-    Analyst
+-   **Precision Public Health for NCD Risk Profiling** (in collaboration with Google)
 
-    May 2023-to date
+    Lead Analyst · from January 2025
 
--   **DenguePrecise**: **Local solutions for data-driven intelligence for disease control optimisation and preventive action**
+-   **Human Resource Optimisation Project**
 
-    Biostatistics and Data Repository Centre National Institutes of Health, Klang District Health Office
+    Ministry of Health Malaysia · Lead Analyst · from August 2024
 
-    Research lead and analyst
+-   **Real-World Effectiveness of COVID-19 Vaccines under the Malaysian National Immunisation Programme (RECoVaM)**
 
-    March 2023-to date
+    National Institutes of Health, Universiti Malaya · Research Lead and Analyst · 2022 – 2025
 
--   **Bayesian Disease mapping and Small-area estimation of Non-communicable Diseases in Malaysia**
+-   **Optimisation of Peka B40 & NHSI for Non-communicable Disease Screening**
 
-    Institute for Public Health (NIH), Biostatistics and Data Repository sector (NIH)
+    ProtectHealth Sdn Bhd, Biostatistics and Data Repository Sector (NIH) · Research Lead and Analyst · from September 2023
 
-    Analyst
+-   **Colorectal Pathways Project: a precision public health approach to optimising colorectal screening**
 
-    January 2023-to date
-
--   **COVID-19 Country Report 2023**
-
-    National Institutes of Health
-
-    Analyst
-
-    October 2023-May 2023
+    Institute for Health Systems Research, Biostatistics and Data Repository Centre (NIH), Disease Control Division (MOH) · Analyst · from May 2023
 
 -   **Automation of ICD-10 coding using a Natural Language Processing approach for death registration data**
 
-    Biostatistics and Data Repository sector (NIH), Institute for Public Health (NIH)
+    Biostatistics and Data Repository Sector (NIH), Institute for Public Health (NIH) · Analyst · 2022 – 2024
 
-    Analyst
+-   **Machine learning for the profiling of undiagnosed diabetes, hypertension and cholesterolaemia**
 
-    December 2022-to date
+    Biostatistics and Data Repository Sector (NIH), Institute for Public Health (NIH) · Research Lead and Analyst · 2022 – 2023
 
--   **Machine learning for the profiling of undiagnosed diabetes, hypertension and cholesterolemia**
+-   **Modelling the cervical cancer screening programmes in Malaysia**
 
-    Biostatistics and Data Repository sector (NIH), Institute for Public Health (NIH)
+    Institute for Health Systems Research (NIH) · Consultant · September 2023
 
-    Research lead and analyst
+-   **COVID-19 Country Report 2023**
 
-    October 2022-current
-
--   **Real-world effectiveness of COVID-19 Vaccines under the Malaysian**
-
-    National COVID-19 Immunisation Programme (RECoVaM) National Institutes of Health, Universiti Malaya Research
-
-    Lead analyst
-
-    September 2023 -- to date
-
--   **Modelling the Cervical cancer screening programmes in Malaysia**
-
-    Institute for Health Systems Research (NIH), Biostatistics and Data Repository sector (NIH)
-
-    Consultant
-
-    September 2023
+    National Institutes of Health · Analyst · 2023
 
 -   **COVID-19 Epidemiological Analysis and Strategies (CEASe)**
 
-    Universiti Malaya
-
-    Analyst
-
-    March 2020- January 2023
-
-<br>
-
-```{=html}
-<center>
-    <a href="https://twitter.com/vivekjason87" target="_blank"><img src="images/twitter.png" alt="Img link to Twitter" width="35" height="35"></a>
-    
-    &nbsp; &nbsp;
-     <font color="#D3D3D3" size="5">  /  </font>
-    &nbsp; &nbsp;
-    
-    <a href="https://GitHub.com/vivekjason" target="_blank"><img src="images/github.png" alt="Img link to GitHub" width="40" height="40"></a>
-    
-    &nbsp; &nbsp;
-    <font color="#D3D3D3" size="5">  /  </font>
-    &nbsp; &nbsp;
-    
-    <a href="https://scholar.google.com/citations?user=JjjMqJEAAAAJ&hl=en&authuser=1" target="_blank"><img src="images/google.png" alt="Img link to Google Scholar" width="40" height="40"></a>
-    
-    &nbsp; &nbsp;
-    <font color="#D3D3D3" size="5">  /  </font>
-    &nbsp; &nbsp;
-    
-    <a href="https://www.linkedin.com/in/vivek-jason-jayaraj-605a09139/" target="_blank"><img src="images/linkedin.png" alt="Img link to Linkedin" width="40" height="40"></a>
-    
-    &nbsp; &nbsp;
-    <font color="#D3D3D3" size="5">  /  </font>
-    &nbsp; &nbsp;
-    
-
-    <a href="mailto:vivekjason.j@moh.gov.m" target="_blank"><img src="images/email.png" alt="Img link to Email" width="40" height="40"></a>
-</center> 
-```
+    Universiti Malaya · Analyst · March 2020 – January 2023

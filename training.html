@@ -78,12 +78,36 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
+function renderTimeline(listId, countId, segId, DATA){
+  var list=document.getElementById(listId), cnt=document.getElementById(countId), seg=document.getElementById(segId);
+  if(!list) return;
+  var f="all";
+  function draw(){
+    var rows=DATA.filter(function(x){return f==="all"||x.ty===f;}).slice().sort(function(a,b){return b.y-a.y;});
+    if(cnt) cnt.textContent = rows.length + (rows.length===1?" entry":" entries");
+    list.innerHTML = rows.length ? rows.map(function(x){
+      var title = x.url ? '<a href="'+x.url+'" target="_blank" rel="noopener">'+x.t+'</a>' : x.t;
+      var award = x.award ? '<span class="vjt-chip solid">'+x.award+'</span>' : '';
+      return '<div class="vjt-item"><div class="vjt-top"><span class="vjt-date">'+x.d+'</span>'+
+             '<span class="vjt-chip">'+x.ty+'</span>'+award+'</div>'+
+             '<h3>'+title+'</h3><div class="vjt-ev">'+x.e+'</div></div>';
+    }).join('') : '<div class="vjt-empty">No entries match this filter.</div>';
+  }
+  if(seg){ seg.addEventListener("click", function(e){
+    var b=e.target.closest("button"); if(!b) return;
+    var bs=seg.querySelectorAll("button"); for(var i=0;i<bs.length;i++) bs[i].classList.remove("on");
+    b.classList.add("on"); f=b.dataset.f; draw();
+  }); }
+  draw();
+}
+</script>
 
 
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+<body class="nav-fixed fullcontent quarto-light"><script id="quarto-html-before-body" type="application/javascript">
     const toggleBodyColorMode = (bsSheetEl) => {
       const mode = bsSheetEl.getAttribute("data-mode");
       const bodyEl = window.document.querySelector("body");
@@ -318,16 +342,7 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#recent" id="toc-recent" class="nav-link active" data-scroll-target="#recent">Recent</a></li>
-  <li><a href="#earlier" id="toc-earlier" class="nav-link" data-scroll-target="#earlier">Earlier</a></li>
-  </ul>
-</nav>
-    </div>
+    
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -351,67 +366,38 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="recent" class="level2">
-<h2 class="anchored" data-anchor-id="recent">Recent</h2>
-<ul>
-<li><p><strong>Introduction to GIS in R</strong> — Centre for Population Health, Universiti Malaya · Lead Instructor · December 2025</p></li>
-<li><p><strong>Introduction to R Shiny</strong> — Institute for Clinical Research, NIH · Lead Instructor · September 2025</p></li>
-<li><p><strong>Regression in R</strong> — Centre for Population Health, Universiti Malaya · Lead Instructor · November 2024</p></li>
-<li><p><strong>Applied Epi: Introduction to R</strong> — WHO Western Pacific (Tagaytay &amp; Iloilo, Philippines) · Instructor · 2024</p></li>
-<li><p><strong>Introduction to R</strong> — Health Informatics Centre, Ministry of Health Malaysia · Lead Instructor · September 2024</p></li>
-<li><p><strong>From Prompt to PubMed</strong> (MJM AI Workshop on Manuscript Writing) · Speaker · 2026</p></li>
-</ul>
-</section>
-<section id="earlier" class="level2">
-<h2 class="anchored" data-anchor-id="earlier">Earlier</h2>
-<ul>
-<li><p><a href="https://vivekjason.github.io/StatsComputingR_sbdr2023/"><strong>Statistical Computing in R (Beginner-Intermediate)</strong></a></p>
-<p>Trainer</p>
-<p>National Institutes of Health</p>
-<p>10 July- 11 July 2023</p></li>
-<li><p><a href="https://vivekjason.github.io/machine_learning_sbdr2023/"><strong>Machine Learning for Health in R Workshop</strong></a></p>
-<p>Trainer</p>
-<p>Big Data Center, Biostatistics and Data Repository Sector, National Institutes of Health</p>
-<p>December 2022- June 2023</p></li>
-<li><p><strong>How to speak Medicalese: A Beginners Guide to Understanding Medical Ontology</strong></p>
-<p>Guest Lecturer, Undergraduate in Digital Health,</p>
-<p>International Medical University Malaysia</p></li>
-<li><p><strong>Workshop: Introduction to R</strong></p>
-<p>Trainer</p>
-<p>Asia-Pacific Conference in Public Health, 2019</p></li>
-</ul>
-<p><br></p>
-<center>
-    <a href="https://twitter.com/vivekjason1987" target="_blank"><img src="images/twitter.png" alt="Img link to X" width="35" height="35"></a>
-    
-    &nbsp; &nbsp;
-     <font color="#D3D3D3" size="5">  /  </font>
-    &nbsp; &nbsp;
-    
-    <a href="https://GitHub.com/vivekjason" target="_blank"><img src="images/github.png" alt="Img link to GitHub" width="40" height="40"></a>
-    
-    &nbsp; &nbsp;
-    <font color="#D3D3D3" size="5">  /  </font>
-    &nbsp; &nbsp;
-    
-    <a href="https://scholar.google.com/citations?user=JjjMqJEAAAAJ&amp;hl=en&amp;authuser=1" target="_blank"><img src="images/google.png" alt="Img link to Google Scholar" width="40" height="40"></a>
-    
-    &nbsp; &nbsp;
-    <font color="#D3D3D3" size="5">  /  </font>
-    &nbsp; &nbsp;
-    
-    <a href="https://www.linkedin.com/in/vivek-jason-jayaraj-605a09139/" target="_blank"><img src="images/linkedin.png" alt="Img link to Linkedin" width="40" height="40"></a>
-    
-    &nbsp; &nbsp;
-    <font color="#D3D3D3" size="5">  /  </font>
-    &nbsp; &nbsp;
-    
+<div class="vj-pagehead">
+  <p class="lede">Workshops and courses I lead or teach — mostly R, data science and epidemiological methods for health researchers and public-health practitioners.</p>
+</div>
 
-    <a href="mailto:vivekjason1987@gmail.com" target="_blank"><img src="images/email.png" alt="Img link to Email" width="40" height="40"></a>
-</center> 
+<div class="vjt-ctl">
+  <div class="vjt-seg" id="rseg">
+    <button class="on" data-f="all">ALL</button>
+    <button data-f="Lead Instructor">LEAD INSTRUCTOR</button>
+    <button data-f="Instructor">INSTRUCTOR</button>
+    <button data-f="Speaker">SPEAKER</button>
+  </div>
+</div>
+<div class="vjt-count" id="rcount"></div>
+<div class="vjt" id="rlist"></div>
+
+<script>
+const TRAINING = [
+ {d:"May 2026", y:2026, ty:"Speaker",         t:"From Prompt to PubMed", e:"MJM AI Workshop on Manuscript Writing"},
+ {d:"Dec 2025", y:2025.9, ty:"Lead Instructor", t:"Introduction to GIS in R", e:"Centre for Population Health, Universiti Malaya"},
+ {d:"Sep 2025", y:2025.8, ty:"Lead Instructor", t:"Introduction to R Shiny", e:"Institute for Clinical Research, National Institutes of Health"},
+ {d:"Nov 2024", y:2024.9, ty:"Lead Instructor", t:"Regression in R", e:"Centre for Population Health, Universiti Malaya"},
+ {d:"Oct 2024", y:2024.8, ty:"Instructor",     t:"Applied Epi: Introduction to R", e:"WHO Western Pacific — Tagaytay & Iloilo, Philippines"},
+ {d:"Sep 2024", y:2024.7, ty:"Lead Instructor", t:"Introduction to R", e:"Health Informatics Centre, Ministry of Health Malaysia"},
+ {d:"Jul 2023", y:2023.3, ty:"Lead Instructor", t:"Statistical Computing in R (Beginner–Intermediate)", e:"National Institutes of Health", url:"https://vivekjason.github.io/StatsComputingR_sbdr2023/"},
+ {d:"2022–23", y:2023.2, ty:"Lead Instructor", t:"Machine Learning for Health in R", e:"Big Data Center, Biostatistics & Data Repository Sector, NIH", url:"https://vivekjason.github.io/machine_learning_sbdr2023/"},
+ {d:"2023", y:2023.1, ty:"Speaker",           t:"How to Speak Medicalese: A Beginner's Guide to Medical Ontology", e:"International Medical University (Undergraduate in Digital Health)"},
+ {d:"2019", y:2019, ty:"Instructor",          t:"Workshop: Introduction to R", e:"Asia-Pacific Conference in Public Health 2019"}
+];
+renderTimeline("rlist","rcount","rseg",TRAINING);
+</script>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

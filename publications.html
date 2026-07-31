@@ -78,6 +78,30 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
+function renderTimeline(listId, countId, segId, DATA){
+  var list=document.getElementById(listId), cnt=document.getElementById(countId), seg=document.getElementById(segId);
+  if(!list) return;
+  var f="all";
+  function draw(){
+    var rows=DATA.filter(function(x){return f==="all"||x.ty===f;}).slice().sort(function(a,b){return b.y-a.y;});
+    if(cnt) cnt.textContent = rows.length + (rows.length===1?" entry":" entries");
+    list.innerHTML = rows.length ? rows.map(function(x){
+      var title = x.url ? '<a href="'+x.url+'" target="_blank" rel="noopener">'+x.t+'</a>' : x.t;
+      var award = x.award ? '<span class="vjt-chip solid">'+x.award+'</span>' : '';
+      return '<div class="vjt-item"><div class="vjt-top"><span class="vjt-date">'+x.d+'</span>'+
+             '<span class="vjt-chip">'+x.ty+'</span>'+award+'</div>'+
+             '<h3>'+title+'</h3><div class="vjt-ev">'+x.e+'</div></div>';
+    }).join('') : '<div class="vjt-empty">No entries match this filter.</div>';
+  }
+  if(seg){ seg.addEventListener("click", function(e){
+    var b=e.target.closest("button"); if(!b) return;
+    var bs=seg.querySelectorAll("button"); for(var i=0;i<bs.length;i++) bs[i].classList.remove("on");
+    b.classList.add("on"); f=b.dataset.f; draw();
+  }); }
+  draw();
+}
+</script>
 
 
 <link rel="stylesheet" href="styles.css">

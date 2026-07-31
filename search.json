@@ -4,7 +4,7 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Automated Public Health Reports\nLead Analyst · from November 2025\nPrecision Public Health for NCD Risk Profiling (in collaboration with Google)\nLead Analyst · from January 2025\nHuman Resource Optimisation Project\nMinistry of Health Malaysia · Lead Analyst · from August 2024\nReal-World Effectiveness of COVID-19 Vaccines under the Malaysian National Immunisation Programme (RECoVaM)\nNational Institutes of Health, Universiti Malaya · Research Lead and Analyst · 2022 – 2025\nOptimisation of Peka B40 & NHSI for Non-communicable Disease Screening\nProtectHealth Sdn Bhd, Biostatistics and Data Repository Sector (NIH) · Research Lead and Analyst · from September 2023\nColorectal Pathways Project: a precision public health approach to optimising colorectal screening\nInstitute for Health Systems Research, Biostatistics and Data Repository Centre (NIH), Disease Control Division (MOH) · Analyst · from May 2023\nAutomation of ICD-10 coding using a Natural Language Processing approach for death registration data\nBiostatistics and Data Repository Sector (NIH), Institute for Public Health (NIH) · Analyst · 2022 – 2024\nMachine learning for the profiling of undiagnosed diabetes, hypertension and cholesterolaemia\nBiostatistics and Data Repository Sector (NIH), Institute for Public Health (NIH) · Research Lead and Analyst · 2022 – 2023\nModelling the cervical cancer screening programmes in Malaysia\nInstitute for Health Systems Research (NIH) · Consultant · September 2023\nCOVID-19 Country Report 2023\nNational Institutes of Health · Analyst · 2023\nCOVID-19 Epidemiological Analysis and Strategies (CEASe)\nUniversiti Malaya · Analyst · March 2020 – January 2023"
+    "text": "Applied data-science and public-health projects — precision public health, disease surveillance, vaccine effectiveness and health-system analytics. Filter by my role.\n\n\n\n  \n    ALL\n    LEAD ANALYST\n    RESEARCH LEAD\n    ANALYST\n    CONSULTANT"
   },
   {
     "objectID": "cv/cv_onepage_draft.html",
@@ -60,21 +60,7 @@
     "href": "training.html",
     "title": "Training",
     "section": "",
-    "text": "Introduction to GIS in R — Centre for Population Health, Universiti Malaya · Lead Instructor · December 2025\nIntroduction to R Shiny — Institute for Clinical Research, NIH · Lead Instructor · September 2025\nRegression in R — Centre for Population Health, Universiti Malaya · Lead Instructor · November 2024\nApplied Epi: Introduction to R — WHO Western Pacific (Tagaytay & Iloilo, Philippines) · Instructor · 2024\nIntroduction to R — Health Informatics Centre, Ministry of Health Malaysia · Lead Instructor · September 2024\nFrom Prompt to PubMed (MJM AI Workshop on Manuscript Writing) · Speaker · 2026"
-  },
-  {
-    "objectID": "training.html#recent",
-    "href": "training.html#recent",
-    "title": "Training",
-    "section": "",
-    "text": "Introduction to GIS in R — Centre for Population Health, Universiti Malaya · Lead Instructor · December 2025\nIntroduction to R Shiny — Institute for Clinical Research, NIH · Lead Instructor · September 2025\nRegression in R — Centre for Population Health, Universiti Malaya · Lead Instructor · November 2024\nApplied Epi: Introduction to R — WHO Western Pacific (Tagaytay & Iloilo, Philippines) · Instructor · 2024\nIntroduction to R — Health Informatics Centre, Ministry of Health Malaysia · Lead Instructor · September 2024\nFrom Prompt to PubMed (MJM AI Workshop on Manuscript Writing) · Speaker · 2026"
-  },
-  {
-    "objectID": "training.html#earlier",
-    "href": "training.html#earlier",
-    "title": "Training",
-    "section": "Earlier",
-    "text": "Earlier\n\nStatistical Computing in R (Beginner-Intermediate)\nTrainer\nNational Institutes of Health\n10 July- 11 July 2023\nMachine Learning for Health in R Workshop\nTrainer\nBig Data Center, Biostatistics and Data Repository Sector, National Institutes of Health\nDecember 2022- June 2023\nHow to speak Medicalese: A Beginners Guide to Understanding Medical Ontology\nGuest Lecturer, Undergraduate in Digital Health,\nInternational Medical University Malaysia\nWorkshop: Introduction to R\nTrainer\nAsia-Pacific Conference in Public Health, 2019\n\n\n\n    \n    \n       \n       /  \n       \n    \n    \n    \n       \n      /  \n       \n    \n    \n    \n       \n      /  \n       \n    \n    \n    \n       \n      /"
+    "text": "Workshops and courses I lead or teach — mostly R, data science and epidemiological methods for health researchers and public-health practitioners.\n\n\n\n  \n    ALL\n    LEAD INSTRUCTOR\n    INSTRUCTOR\n    SPEAKER"
   },
   {
     "objectID": "cv.html",
@@ -165,21 +151,7 @@
     "href": "talks.html",
     "title": "Talks",
     "section": "",
-    "text": "Digital Transformation in Disease Surveillance — Asia-Pacific Conference on Public Health 2026 · Speaker\nTrust me Bro! Building Trust in AI Systems — Asia Pacific Rim Universities (APRU) Conference 2025 · Speaker\nDigital Health Security & Governance — UNU Macau AI Conference 2025 · Speaker\nPrecision Nasi Lemak: Building Precision in Public Health — MIH Megatrends 2025 · Speaker\nEmpowering Patients Through Digital Health Solutions — Care360: Patient Centric Conference 2025 · Speaker\nBeyond Clinical Trials: Trial Emulation and Data-linkage for Vaccine Effectiveness in Malaysia — Clinical Research Malaysia Trial Connect 2024 · Speaker"
-  },
-  {
-    "objectID": "talks.html#recent",
-    "href": "talks.html#recent",
-    "title": "Talks",
-    "section": "",
-    "text": "Digital Transformation in Disease Surveillance — Asia-Pacific Conference on Public Health 2026 · Speaker\nTrust me Bro! Building Trust in AI Systems — Asia Pacific Rim Universities (APRU) Conference 2025 · Speaker\nDigital Health Security & Governance — UNU Macau AI Conference 2025 · Speaker\nPrecision Nasi Lemak: Building Precision in Public Health — MIH Megatrends 2025 · Speaker\nEmpowering Patients Through Digital Health Solutions — Care360: Patient Centric Conference 2025 · Speaker\nBeyond Clinical Trials: Trial Emulation and Data-linkage for Vaccine Effectiveness in Malaysia — Clinical Research Malaysia Trial Connect 2024 · Speaker"
-  },
-  {
-    "objectID": "talks.html#earlier",
-    "href": "talks.html#earlier",
-    "title": "Talks",
-    "section": "Earlier",
-    "text": "Earlier\n\nEpidemiologic Espresso: Waking up to Data-drive COVID-19 Control\nVivek Jason Jayaraj\nBreakfast@UMHealth,\n13 July 2023\n\n\n\nA warning on Waning: The duration of Vaccine derived immunity in Malaysia\nVivek Jason Jayaraj, Sanjay Rampal\nInternational Society for Infectious Diseases Congress, 2022- Poster presentation\nDeriving lessons from spatiotemporal clusters of COVID-19 incidence in 77 countries\nVivek Jason Jayaraj, Ng Chiu-Wan, Diane Chong Woei Quan, Sanjay Rampal\nAsia-Pacific Academic Consortium for Public Health Conference, 2022- Oral Presentation\nEmerging Technologies in Health (Forum)\nModerator\nAsia-Pacific Conference in Public Health, 2022\nDevelopment of an open-source, rapidly-scalable, low-cost, and reproducible COVID-19 dashboard in deriving epidemiologic intelligence for Public health action\nVivek Jason Jayaraj, Ng Chiu-Wan, Diane Chong Woei Quan, Victor Hoe Chee Wai, Sanjay Rampal\nAsia-Pacific Conference in Public Health, 2022- Oral Presentation\nComparison of different approaches in estimating the time-varying reproductive number for COVID-19\nVivek Jason Jayaraj, Ng Chiu-Wan, Diane Chong Woei Quan, Sanjay Rampal\nIMED International Society for Infectious Diseases Conference, 2021- Poster Presentation\nA meta-analysis of the serial interval and generation time of COVID-19 transmission\nSanjay Rampal, Vivek Jason Jayaraj, Diane Chong Woei Quan, Ng Chiu-Wan\nWorld Congress of Epidemiology 2021- Poster Presentation\nOrdering the chaos: The global clustering of COVID-19 incidence and mortality\nVivek Jason Jayaraj, Ng Chiu-Wan, Diane Chong Woei Quan, Sanjay Rampal\nWorld Congress of Epidemiology 2021- Oral Presentation\nForecasting HFMD using Weather variables and Google search trends in Sabah, Malaysia, 2018-2019\nVivek Jason Jayaraj, Victor Hoe Chee Wai\nAsia-Pacific Conference in Public Health, 2019 – Oral Presentation, 1st place\nA Case of Typhoid Fever Outbreak Secondary to Contaminated Fish in Tawau, 2017\nVivek Jason, G. Navindran, Dhesi Baha Raja, Aaron George, Emmy Fizreena, Iskandar Nonche\nSabah Public Health Colloquium 2017 – Poster Presentation\nA Case of E. coli Food Poisoning Secondary to Untreated Water Source in Balung, Tawau, 2017\nVivek Jason, Jason Jimmy Lee Pillay, Aaron George\nSabah Public Health Colloquium 2017 – Poster Presentation, 1st place\nDeveloping a Dengue Prediction Model in Tawau, 2016\nVivek Jason, Richard Avoi, G. Navindran, Dhesi Baha Raja\nNational Dengue and Arboviruses Conference 2017 – Poster Presentation, 1st place\nPredicting Dengue in Tawau using Weather Variables, 2016\nVivek Jason, Richard Avoi, G. Navindran, Dhesi Baha Raja\nSabah Public Health Conference 2016 – Oral Presentation, 3rd place\n\n\n\n    \n    \n       \n       /  \n       \n    \n    \n    \n       \n      /  \n       \n    \n    \n    \n       \n      /  \n       \n    \n    \n    \n       \n      /"
+    "text": "Invited talks, conference presentations and panels — on digital health, data science and the epidemiology of infectious disease. Filter by type, newest first.\n\n\n\n  \n    ALL\n    SPEAKER\n    ORAL\n    POSTER\n    MODERATOR"
   },
   {
     "objectID": "writing.html",
@@ -200,6 +172,6 @@
     "href": "index.html",
     "title": "Helping health datawork together.",
     "section": "",
-    "text": "Public health physician · data scientist\n        Helping health datawork together.\n        I'm a public health physician and data scientist. Most of my work these days is in digital health at Malaysia's Ministry of Health — health-data interoperability and enterprise analytics — alongside ongoing research in epidemiology and infectious disease.\n        \n          Explore the work\n          Download CV\n        \n        \n          27Publications\n          18First author\n          40+Talks / workshops\n        \n      \n      \n        \n          \n          \n        \n      \n    \n  \n\n\n\n\n\n\nI believe it’s within the synergism between data and compassion that we find a better future — so I try to shorten the distance between evidence and action across infectious disease and the health system. Recent work spans COVID-19 vaccine effectiveness, dengue and HFMD forecasting, excess-mortality estimation, and health-data interoperability at national scale."
+    "text": "Public health physician · data scientist\n        Helping health datawork together.\n        I'm a public health physician and data scientist. Most of my work these days is in digital health at Malaysia's Ministry of Health — health-data interoperability and enterprise analytics — alongside ongoing research in epidemiology and infectious disease.\n        \n          Explore the work\n          Download CV\n        \n        \n          27Publications\n          18First author\n          40+Talks / workshops\n        \n      \n      \n        \n      \n    \n  \n\n\n\n\n\n\nI believe it’s within the synergism between data and compassion that we find a better future — so I try to shorten the distance between evidence and action across infectious disease and the health system. Recent work spans COVID-19 vaccine effectiveness, dengue and HFMD forecasting, excess-mortality estimation, and health-data interoperability at national scale."
   }
 ]

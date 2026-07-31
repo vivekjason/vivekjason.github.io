@@ -1,53 +1,40 @@
 ---
 title: "Projects"
 pagetitle: "Projects — Vivek Jason Jayaraj"
-editor: visual
-format:
-    html:
-        toc: true
-        toc-depth: 3
+toc: false
 ---
 
--   **Automated Public Health Reports**
+```{=html}
+<div class="vj-pagehead">
+  <p class="lede">Applied data-science and public-health projects — precision public health, disease surveillance, vaccine effectiveness and health-system analytics. Filter by my role.</p>
+</div>
 
-    Lead Analyst · from November 2025
+<div class="vjt-ctl">
+  <div class="vjt-seg" id="pseg">
+    <button class="on" data-f="all">ALL</button>
+    <button data-f="Lead Analyst">LEAD ANALYST</button>
+    <button data-f="Research Lead">RESEARCH LEAD</button>
+    <button data-f="Analyst">ANALYST</button>
+    <button data-f="Consultant">CONSULTANT</button>
+  </div>
+</div>
+<div class="vjt-count" id="pcount"></div>
+<div class="vjt" id="plist"></div>
 
--   **Precision Public Health for NCD Risk Profiling** (in collaboration with Google)
-
-    Lead Analyst · from January 2025
-
--   **Human Resource Optimisation Project**
-
-    Ministry of Health Malaysia · Lead Analyst · from August 2024
-
--   **Real-World Effectiveness of COVID-19 Vaccines under the Malaysian National Immunisation Programme (RECoVaM)**
-
-    National Institutes of Health, Universiti Malaya · Research Lead and Analyst · 2022 – 2025
-
--   **Optimisation of Peka B40 & NHSI for Non-communicable Disease Screening**
-
-    ProtectHealth Sdn Bhd, Biostatistics and Data Repository Sector (NIH) · Research Lead and Analyst · from September 2023
-
--   **Colorectal Pathways Project: a precision public health approach to optimising colorectal screening**
-
-    Institute for Health Systems Research, Biostatistics and Data Repository Centre (NIH), Disease Control Division (MOH) · Analyst · from May 2023
-
--   **Automation of ICD-10 coding using a Natural Language Processing approach for death registration data**
-
-    Biostatistics and Data Repository Sector (NIH), Institute for Public Health (NIH) · Analyst · 2022 – 2024
-
--   **Machine learning for the profiling of undiagnosed diabetes, hypertension and cholesterolaemia**
-
-    Biostatistics and Data Repository Sector (NIH), Institute for Public Health (NIH) · Research Lead and Analyst · 2022 – 2023
-
--   **Modelling the cervical cancer screening programmes in Malaysia**
-
-    Institute for Health Systems Research (NIH) · Consultant · September 2023
-
--   **COVID-19 Country Report 2023**
-
-    National Institutes of Health · Analyst · 2023
-
--   **COVID-19 Epidemiological Analysis and Strategies (CEASe)**
-
-    Universiti Malaya · Analyst · March 2020 – January 2023
+<script>
+const PROJECTS = [
+ {d:"2025 →", y:2025.9, ty:"Lead Analyst", t:"Automated Public Health Reports", e:"Ministry of Health Malaysia"},
+ {d:"2025 →", y:2025.8, ty:"Lead Analyst", t:"Precision Public Health for NCD Risk Profiling", e:"In collaboration with Google"},
+ {d:"2024 →", y:2024.5, ty:"Lead Analyst", t:"Human Resource Optimisation Project", e:"Ministry of Health Malaysia"},
+ {d:"2023 →", y:2023.9, ty:"Research Lead", t:"Optimisation of Peka B40 & NHSI for NCD Screening", e:"ProtectHealth Sdn Bhd · Biostatistics & Data Repository Sector, NIH"},
+ {d:"2023 →", y:2023.5, ty:"Analyst", t:"Colorectal Pathways Project: precision public health for colorectal screening", e:"Institute for Health Systems Research · BDR Centre, NIH · Disease Control Division, MOH"},
+ {d:"2022–25", y:2022.9, ty:"Research Lead", t:"Real-world Effectiveness of COVID-19 Vaccines (RECoVaM)", e:"National Institutes of Health · Universiti Malaya"},
+ {d:"2022–24", y:2022.5, ty:"Analyst", t:"Automation of ICD-10 Coding via NLP for Death Registration Data", e:"Biostatistics & Data Repository Sector, NIH · Institute for Public Health, NIH"},
+ {d:"2022–23", y:2022.3, ty:"Research Lead", t:"Machine Learning for Profiling Undiagnosed Diabetes, Hypertension & Cholesterolaemia", e:"Biostatistics & Data Repository Sector, NIH · Institute for Public Health, NIH"},
+ {d:"2023", y:2023.2, ty:"Consultant", t:"Modelling the Cervical Cancer Screening Programmes in Malaysia", e:"Institute for Health Systems Research, NIH"},
+ {d:"2023", y:2023.1, ty:"Analyst", t:"COVID-19 Country Report 2023", e:"National Institutes of Health"},
+ {d:"2020–23", y:2020, ty:"Analyst", t:"COVID-19 Epidemiological Analysis and Strategies (CEASe)", e:"Universiti Malaya"}
+];
+renderTimeline("plist","pcount","pseg",PROJECTS);
+</script>
+```

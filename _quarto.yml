@@ -46,6 +46,7 @@ format:
       light: [cosmo, theme.scss]
       dark: [cosmo, theme-dark.scss]
     css: styles.css
+    include-in-header: timeline.html
     toc: true
 
 editor: visual
@@ -56,3 +57,5 @@ execute:
 resources:
   - CNAME
   - cv/cv_vivekjasonjayaraj_260721.docx
+  - images/vivek-hero.webp
+  - images/vivek-hero.png

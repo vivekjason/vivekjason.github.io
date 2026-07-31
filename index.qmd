@@ -25,10 +25,8 @@ anchor-sections: false
         </div>
       </div>
       <div class="vjx-figure">
-        <picture>
-          <source srcset="images/vivek-hero.webp" type="image/webp">
-          <img src="images/vivek-hero.png" alt="Vivek Jason Jayaraj — public health physician" onerror="this.style.display='none'">
-        </picture>
+        <img src="images/vivek-hero.webp" alt="Vivek Jason Jayaraj — public health physician"
+             onerror="this.onerror=null;this.src='images/vivek-hero.png'">
       </div>
     </div>
   </section>

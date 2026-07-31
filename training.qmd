@@ -1,86 +1,38 @@
 ---
 title: "Training"
 pagetitle: "Training — Vivek Jason Jayaraj"
-editor: visual
-format:
-    html:
-        toc: true
-        toc-depth: 3
+toc: false
 ---
 
-## Recent
-
--   **Introduction to GIS in R** — Centre for Population Health, Universiti Malaya · Lead Instructor · December 2025
-
--   **Introduction to R Shiny** — Institute for Clinical Research, NIH · Lead Instructor · September 2025
-
--   **Regression in R** — Centre for Population Health, Universiti Malaya · Lead Instructor · November 2024
-
--   **Applied Epi: Introduction to R** — WHO Western Pacific (Tagaytay & Iloilo, Philippines) · Instructor · 2024
-
--   **Introduction to R** — Health Informatics Centre, Ministry of Health Malaysia · Lead Instructor · September 2024
-
--   **From Prompt to PubMed** (MJM AI Workshop on Manuscript Writing) · Speaker · 2026
-
-## Earlier
-
--   [**Statistical Computing in R (Beginner-Intermediate)**](https://vivekjason.github.io/StatsComputingR_sbdr2023/)
-
-    Trainer
-
-    National Institutes of Health
-
-    10 July- 11 July 2023
-
--   [**Machine Learning for Health in R Workshop**](https://vivekjason.github.io/machine_learning_sbdr2023/)
-
-    Trainer
-
-    Big Data Center, Biostatistics and Data Repository Sector, National Institutes of Health
-
-    December 2022- June 2023
-
--   **How to speak Medicalese: A Beginners Guide to Understanding Medical Ontology**
-
-    Guest Lecturer, Undergraduate in Digital Health,
-
-    International Medical University Malaysia
-
--   **Workshop: Introduction to R**
-
-    Trainer
-
-    Asia-Pacific Conference in Public Health, 2019
-
-<br>
-
 ```{=html}
-<center>
-    <a href="https://twitter.com/vivekjason1987" target="_blank"><img src="images/twitter.png" alt="Img link to X" width="35" height="35"></a>
-    
-    &nbsp; &nbsp;
-     <font color="#D3D3D3" size="5">  /  </font>
-    &nbsp; &nbsp;
-    
-    <a href="https://GitHub.com/vivekjason" target="_blank"><img src="images/github.png" alt="Img link to GitHub" width="40" height="40"></a>
-    
-    &nbsp; &nbsp;
-    <font color="#D3D3D3" size="5">  /  </font>
-    &nbsp; &nbsp;
-    
-    <a href="https://scholar.google.com/citations?user=JjjMqJEAAAAJ&hl=en&authuser=1" target="_blank"><img src="images/google.png" alt="Img link to Google Scholar" width="40" height="40"></a>
-    
-    &nbsp; &nbsp;
-    <font color="#D3D3D3" size="5">  /  </font>
-    &nbsp; &nbsp;
-    
-    <a href="https://www.linkedin.com/in/vivek-jason-jayaraj-605a09139/" target="_blank"><img src="images/linkedin.png" alt="Img link to Linkedin" width="40" height="40"></a>
-    
-    &nbsp; &nbsp;
-    <font color="#D3D3D3" size="5">  /  </font>
-    &nbsp; &nbsp;
-    
+<div class="vj-pagehead">
+  <p class="lede">Workshops and courses I lead or teach — mostly R, data science and epidemiological methods for health researchers and public-health practitioners.</p>
+</div>
 
-    <a href="mailto:vivekjason1987@gmail.com" target="_blank"><img src="images/email.png" alt="Img link to Email" width="40" height="40"></a>
-</center> 
+<div class="vjt-ctl">
+  <div class="vjt-seg" id="rseg">
+    <button class="on" data-f="all">ALL</button>
+    <button data-f="Lead Instructor">LEAD INSTRUCTOR</button>
+    <button data-f="Instructor">INSTRUCTOR</button>
+    <button data-f="Speaker">SPEAKER</button>
+  </div>
+</div>
+<div class="vjt-count" id="rcount"></div>
+<div class="vjt" id="rlist"></div>
+
+<script>
+const TRAINING = [
+ {d:"May 2026", y:2026, ty:"Speaker",         t:"From Prompt to PubMed", e:"MJM AI Workshop on Manuscript Writing"},
+ {d:"Dec 2025", y:2025.9, ty:"Lead Instructor", t:"Introduction to GIS in R", e:"Centre for Population Health, Universiti Malaya"},
+ {d:"Sep 2025", y:2025.8, ty:"Lead Instructor", t:"Introduction to R Shiny", e:"Institute for Clinical Research, National Institutes of Health"},
+ {d:"Nov 2024", y:2024.9, ty:"Lead Instructor", t:"Regression in R", e:"Centre for Population Health, Universiti Malaya"},
+ {d:"Oct 2024", y:2024.8, ty:"Instructor",     t:"Applied Epi: Introduction to R", e:"WHO Western Pacific — Tagaytay & Iloilo, Philippines"},
+ {d:"Sep 2024", y:2024.7, ty:"Lead Instructor", t:"Introduction to R", e:"Health Informatics Centre, Ministry of Health Malaysia"},
+ {d:"Jul 2023", y:2023.3, ty:"Lead Instructor", t:"Statistical Computing in R (Beginner–Intermediate)", e:"National Institutes of Health", url:"https://vivekjason.github.io/StatsComputingR_sbdr2023/"},
+ {d:"2022–23", y:2023.2, ty:"Lead Instructor", t:"Machine Learning for Health in R", e:"Big Data Center, Biostatistics & Data Repository Sector, NIH", url:"https://vivekjason.github.io/machine_learning_sbdr2023/"},
+ {d:"2023", y:2023.1, ty:"Speaker",           t:"How to Speak Medicalese: A Beginner's Guide to Medical Ontology", e:"International Medical University (Undergraduate in Digital Health)"},
+ {d:"2019", y:2019, ty:"Instructor",          t:"Workshop: Introduction to R", e:"Asia-Pacific Conference in Public Health 2019"}
+];
+renderTimeline("rlist","rcount","rseg",TRAINING);
+</script>
 ```

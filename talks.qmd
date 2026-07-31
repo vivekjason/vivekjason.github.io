@@ -1,141 +1,48 @@
 ---
 title: "Talks"
 pagetitle: "Talks — Vivek Jason Jayaraj"
-editor: visual
-format:
-    html:
-        toc: true
-        toc-depth: 3
+toc: false
 ---
 
-## Recent
-
--   **Digital Transformation in Disease Surveillance** — Asia-Pacific Conference on Public Health 2026 · Speaker
-
--   **Trust me Bro! Building Trust in AI Systems** — Asia Pacific Rim Universities (APRU) Conference 2025 · Speaker
-
--   **Digital Health Security & Governance** — UNU Macau AI Conference 2025 · Speaker
-
--   **Precision Nasi Lemak: Building Precision in Public Health** — MIH Megatrends 2025 · Speaker
-
--   **Empowering Patients Through Digital Health Solutions** — Care360: Patient Centric Conference 2025 · Speaker
-
--   **Beyond Clinical Trials: Trial Emulation and Data-linkage for Vaccine Effectiveness in Malaysia** — Clinical Research Malaysia Trial Connect 2024 · Speaker
-
-## Earlier
-
--   **Epidemiologic Espresso: Waking up to Data-drive COVID-19 Control**
-
-    Vivek Jason Jayaraj
-
-    Breakfast\@UMHealth,
-
-    13 July 2023
-
 ```{=html}
-<p align="center"><iframe width="560" height="315" src="https://www.youtube.com/embed/dnu5a53zd3s?list=PL2-K3HijZJqjk06P6awUu6KXnNvrA-7_2" title="Epidemiologic Espresso: Waking up to Data-drive COVID-19 Control" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
-```
--   [**A warning on Waning: The duration of Vaccine derived immunity in Malaysia**](https://www.sciencedirect.com/science/article/pii/S1201971223004988)
+<div class="vj-pagehead">
+  <p class="lede">Invited talks, conference presentations and panels — on digital health, data science and the epidemiology of infectious disease. Filter by type, newest first.</p>
+</div>
 
-    Vivek Jason Jayaraj, Sanjay Rampal
+<div class="vjt-ctl">
+  <div class="vjt-seg" id="tseg">
+    <button class="on" data-f="all">ALL</button>
+    <button data-f="Speaker">SPEAKER</button>
+    <button data-f="Oral">ORAL</button>
+    <button data-f="Poster">POSTER</button>
+    <button data-f="Moderator">MODERATOR</button>
+  </div>
+</div>
+<div class="vjt-count" id="tcount"></div>
+<div class="vjt" id="tlist"></div>
 
-    International Society for Infectious Diseases Congress, 2022- Poster presentation
-
--   **Deriving lessons from spatiotemporal clusters of COVID-19 incidence in 77 countries**
-
-    Vivek Jason Jayaraj, Ng Chiu-Wan, Diane Chong Woei Quan, Sanjay Rampal
-
-    Asia-Pacific Academic Consortium for Public Health Conference, 2022- Oral Presentation
-
--   **Emerging Technologies in Health (Forum)**
-
-    Moderator
-
-    Asia-Pacific Conference in Public Health, 2022
-
--   **Development of an open-source, rapidly-scalable, low-cost, and reproducible COVID-19 dashboard in deriving epidemiologic intelligence for Public health action**
-
-    Vivek Jason Jayaraj, Ng Chiu-Wan, Diane Chong Woei Quan, Victor Hoe Chee Wai, Sanjay Rampal
-
-    Asia-Pacific Conference in Public Health, 2022- Oral Presentation
-
--   [**Comparison of different approaches in estimating the time-varying reproductive number for COVID-19**](https://www.sciencedirect.com/science/article/pii/S1201971221009565)
-
-    Vivek Jason Jayaraj, Ng Chiu-Wan, Diane Chong Woei Quan, Sanjay Rampal
-
-    IMED International Society for Infectious Diseases Conference, 2021- Poster Presentation
-
--   [**A meta-analysis of the serial interval and generation time of COVID-19 transmission**](https://watermark.silverchair.com/dyab168.557.pdf?token=AQECAHi208BE49Ooan9kkhW_Ercy7Dm3ZL_9Cf3qfKAc485ysgAAAuMwggLfBgkqhkiG9w0BBwagggLQMIICzAIBADCCAsUGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMNcqQDuL8FBbPCSQQAgEQgIICllAe8cgPn-g1KOP6n5REdr21tKdb9lbiE0LPDX1uD68TRX4w8NrvVUhpiRO-2yNJj6U4rHbbJpRB-wT5zETuRxxsUZe7FoLAK6xIrDo78Fi2YJ0mmTPCaFFqInSkytznfUp0JnpHHlFsRsXCwh3O-mBx6YcW1xYua_l1q21PLo-1WFPJo_gxlsM5XCmp45mvYMhc6Ff8m6tI8KmKeP6u1zAngXAQ9DaFh1Bhzxrgzk6j8NqAxUs1iNQTKdMh0wxflS_0jlWVya-wS_QNe8XDtUSABKrSCXxdwHwQSBOLBOuXU5IKdZew_AAwXnupxizQG1Pjjh6fFDE-Q00-jSr77yG-6Sf6QO2tumeglTgPeJGTIJN9RxcaEhKdxbECkllxTSkcUaytxIxmfcgwJZ2UiytLBp-dWbKHWKpMTB5zcxVzincALwqeN4xiNd5WQRy0ea0XR1fgvzWAngdp6FmPCgSxz-hM8YqBfe8TElSYkDDFHnQnunSHpFT5lXR5Nw_LIHvxH9bdR5vqp2X8CrEeRNmJt9EumPddWRMVFI_h_v_JnjbeMy911UI0slfCdOV6KZfsSBZ5BUbF3oh1JDIALekOO5HIKC8KYr_0hMkGV-q7wwzQ9Gbu-gk--dboJjzSdNf99w58uPaT_lA9D8V9qJUw7JtYF-HTChYsG_HCZv5qH0T3swf2Lpek86RcV8atotwcohFhG-dwqjFnNZ9zZ32zGOnSELcv943WYS1siv1gC0ARTiW8rYEZBhDTa0C7FGRLp-roV12eFBHiXpHRAaGldqv0wGbksJafQzmIACpanofuOWgB0F4h3EFkegXwjMxJ0jt3dRzmbQULwnodbOx4pYWbJLHnNEKOo3fI1FsptSsiecwl)
-
-    Sanjay Rampal, Vivek Jason Jayaraj, Diane Chong Woei Quan, Ng Chiu-Wan
-
-    World Congress of Epidemiology 2021- Poster Presentation
-
--   [**Ordering the chaos: The global clustering of COVID-19 incidence and mortality**](https://watermark.silverchair.com/dyab168.319.pdf?token=AQECAHi208BE49Ooan9kkhW_Ercy7Dm3ZL_9Cf3qfKAc485ysgAAAuMwggLfBgkqhkiG9w0BBwagggLQMIICzAIBADCCAsUGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMcswXLxl7kYYmCNrmAgEQgIIClg8qPyi3071wS47LRMi94RqMfVlg17aXOGjhDjpl2D8eJkaybOYrc0KSVEpmI1SraXcapOgv4HlnHe42-RemhqJU785gpM8iruA_bf79g8uyfPeC996HI6liL6p7mvO9WZ9i4kEPHOH5s28PkKr1TbevJisH1axeKHFpGjNxihhfgNkEctUfqvuL-OMtSQZThkgfprQyW5H-9zCWZDAtfdPkThonsdxDLK7byMag2Do2oHXOgL78hxnnvqjlDh792Vw3XepXW7Yud7Sq9GzKZHya09aiRJJX6x_VIAZWhvBK_p_EcK-CPq4cGa0i70L6n2mC62XfBc4P5wjxpTkS0aRM7SfZG4aAhor2Qy5wc05wwsUzM1CH4oG7kf0FaxTq4w3LVNsUkOq6HF3XW9hKZ73_9ctu5FhvHy1r3U4ewK2g-h6sS7G1ciU9xhtuf0Q7XjyqSAJyJ6IGShlRZIVuDakcO1CTTkdOT82CVXlXkjEbbhJOGHsJFHwJ4XAiwkGm2v8qdAjbdBbe0Nuf34i_Agbmjc6LN9DD5g1VxFGm2YQNbeC8ZHUg52nnzTsuleHIemfbINQBbVbMDz3HzewMGM5Q2uqy_rx4eILWHETjasx1NVGAepZhkbkN8cV6nIQli21MljTUvGbhBJpXc0y7uyqncCTaN_6Y2ONmRrWFZKr36kMF8R9EDrbI6v8kHK2tEXt5wnHiTDemqL_8CM3ll-7u9YikAFCKOCdwyovDKaZRFdep8PbYUK1Ei3MEp98ZZh6WqGFc94Tp66J4AajU42GHwKxju7rINXoIWpd5bEvO1L22R1o8EZXVF0-62jXpR6odjZzmEOEKzVdg7Mt_jrRMIPqf8-Ab3gWVFF3SlsNy2N9EN7mc)
-
-    Vivek Jason Jayaraj, Ng Chiu-Wan, Diane Chong Woei Quan, Sanjay Rampal
-
-    World Congress of Epidemiology 2021- Oral Presentation
-
--   **Forecasting HFMD using Weather variables and Google search trends in Sabah, Malaysia, 2018-2019**
-
-    Vivek Jason Jayaraj, Victor Hoe Chee Wai
-
-    Asia-Pacific Conference in Public Health, 2019 -- Oral Presentation, 1st place
-
--   **A Case of Typhoid Fever Outbreak Secondary to Contaminated Fish in Tawau, 2017**
-
-    Vivek Jason, G. Navindran, Dhesi Baha Raja, Aaron George, Emmy Fizreena, Iskandar Nonche
-
-    Sabah Public Health Colloquium 2017 -- Poster Presentation
-
--   **A Case of E. coli Food Poisoning Secondary to Untreated Water Source in Balung, Tawau, 2017**
-
-    Vivek Jason, Jason Jimmy Lee Pillay, Aaron George
-
-    Sabah Public Health Colloquium 2017 -- Poster Presentation, 1st place
-
--   **Developing a Dengue Prediction Model in Tawau, 2016**
-
-    Vivek Jason, Richard Avoi, G. Navindran, Dhesi Baha Raja
-
-    National Dengue and Arboviruses Conference 2017 -- Poster Presentation, 1st place
-
--   **Predicting Dengue in Tawau using Weather Variables, 2016**
-
-    Vivek Jason, Richard Avoi, G. Navindran, Dhesi Baha Raja
-
-    Sabah Public Health Conference 2016 -- Oral Presentation, 3rd place
-
-<br>
-
-```{=html}
-<center>
-    <a href="https://twitter.com/vivekjason1987" target="_blank"><img src="images/twitter.png" alt="Img link to X" width="35" height="35"></a>
-    
-    &nbsp; &nbsp;
-     <font color="#D3D3D3" size="5">  /  </font>
-    &nbsp; &nbsp;
-    
-    <a href="https://GitHub.com/vivekjason" target="_blank"><img src="images/github.png" alt="Img link to GitHub" width="40" height="40"></a>
-    
-    &nbsp; &nbsp;
-    <font color="#D3D3D3" size="5">  /  </font>
-    &nbsp; &nbsp;
-    
-    <a href="https://scholar.google.com/citations?user=JjjMqJEAAAAJ&hl=en&authuser=1" target="_blank"><img src="images/google.png" alt="Img link to Google Scholar" width="40" height="40"></a>
-    
-    &nbsp; &nbsp;
-    <font color="#D3D3D3" size="5">  /  </font>
-    &nbsp; &nbsp;
-    
-    <a href="https://www.linkedin.com/in/vivek-jason-jayaraj-605a09139/" target="_blank"><img src="images/linkedin.png" alt="Img link to Linkedin" width="40" height="40"></a>
-    
-    &nbsp; &nbsp;
-    <font color="#D3D3D3" size="5">  /  </font>
-    &nbsp; &nbsp;
-    
-
-    <a href="mailto:vivekjason1987@gmail.com" target="_blank"><img src="images/email.png" alt="Img link to Email" width="40" height="40"></a>
-</center> 
+<script>
+const TALKS = [
+ {d:"Jul 2026", y:2026, ty:"Speaker",   t:"Digital Transformation in Disease Surveillance", e:"Asia-Pacific Conference on Public Health 2026"},
+ {d:"Nov 2025", y:2025.9, ty:"Speaker", t:"Precision Nasi Lemak: Building Precision in Public Health", e:"MIH Megatrends 2025"},
+ {d:"Oct 2025", y:2025.8, ty:"Speaker", t:"Trust Me Bro! Building Trust in AI Systems", e:"Asia Pacific Rim Universities (APRU) Conference 2025"},
+ {d:"Oct 2025", y:2025.7, ty:"Speaker", t:"Digital Health Security & Governance", e:"UNU Macau AI Conference"},
+ {d:"Aug 2025", y:2025.6, ty:"Speaker", t:"Empowering Patients Through Digital Health Solutions", e:"Care360: Patient Centric Conference"},
+ {d:"May 2024", y:2024, ty:"Speaker",   t:"Beyond Clinical Trials: Trial Emulation & Data-linkage for Vaccine Effectiveness in Malaysia", e:"Clinical Research Malaysia Trial Connect 2024"},
+ {d:"Jul 2023", y:2023, ty:"Speaker",   t:"Epidemiologic Espresso: Waking Up to Data-driven COVID-19 Control", e:"Breakfast@UMHealth", url:"https://www.youtube.com/watch?v=dnu5a53zd3s"},
+ {d:"2022", y:2022.4, ty:"Poster",      t:"A Warning on Waning: The Duration of Vaccine-derived Immunity in Malaysia", e:"International Society for Infectious Diseases Congress 2022", url:"https://www.sciencedirect.com/science/article/pii/S1201971223004988"},
+ {d:"2022", y:2022.3, ty:"Oral",        t:"Deriving Lessons from Spatiotemporal Clusters of COVID-19 Incidence in 77 Countries", e:"APACPH Conference 2022", award:"1st place"},
+ {d:"2022", y:2022.2, ty:"Oral",        t:"An Open-source, Rapidly-scalable, Low-cost COVID-19 Dashboard for Epidemiologic Intelligence", e:"Asia-Pacific Conference in Public Health 2022"},
+ {d:"2022", y:2022.1, ty:"Moderator",   t:"Emerging Technologies in Health (Forum)", e:"Asia-Pacific Conference in Public Health 2022"},
+ {d:"2021", y:2021.3, ty:"Oral",        t:"Ordering the Chaos: The Global Clustering of COVID-19 Incidence and Mortality", e:"World Congress of Epidemiology 2021", url:"https://academic.oup.com/ije/article/50/Supplement_1/dyab168.319/6360007"},
+ {d:"2021", y:2021.2, ty:"Poster",      t:"A Meta-analysis of the Serial Interval and Generation Time of COVID-19 Transmission", e:"World Congress of Epidemiology 2021", url:"https://academic.oup.com/ije/article/50/Supplement_1/dyab168.557/6359728"},
+ {d:"2021", y:2021.1, ty:"Poster",      t:"Comparison of Different Approaches in Estimating the Time-varying Reproductive Number for COVID-19", e:"IMED / ISID Conference 2021", url:"https://www.sciencedirect.com/science/article/pii/S1201971221009565"},
+ {d:"2019", y:2019, ty:"Oral",          t:"Forecasting HFMD Using Weather Variables and Google Search Trends in Sabah, 2018–2019", e:"Asia-Pacific Conference in Public Health 2019", award:"1st place"},
+ {d:"2017", y:2017.3, ty:"Poster",      t:"A Case of Typhoid Fever Outbreak Secondary to Contaminated Fish in Tawau, 2017", e:"Sabah Public Health Colloquium 2017"},
+ {d:"2017", y:2017.2, ty:"Poster",      t:"A Case of E. coli Food Poisoning Secondary to Untreated Water in Balung, Tawau, 2017", e:"Sabah Public Health Colloquium 2017", award:"1st place"},
+ {d:"2017", y:2017.1, ty:"Poster",      t:"Developing a Dengue Prediction Model in Tawau, 2016", e:"National Dengue & Arboviruses Conference 2017", award:"1st place"},
+ {d:"2016", y:2016, ty:"Oral",          t:"Predicting Dengue in Tawau Using Weather Variables, 2016", e:"Sabah Public Health Conference 2016", award:"3rd place"}
+];
+renderTimeline("tlist","tcount","tseg",TALKS);
+</script>
 ```

@@ -1,0 +1,12 @@
+source_row,state,district,kk_name,hf_code,latitude_raw,longitude_raw,facility_type,source_system_status,kk_id,latitude,longitude,valid_coordinates
+160,SABAH,Nabawan,Klinik Desa Bahagia,21-12120144,6.1434240000000004,102.223985,Klinik Desa,New KK,K0014,6.143424,102.223985,FALSE
+381,SABAH,Lahad Datu,Klinik Desa Cenderawasih,21-12110171,2.7702800000000001,102.96222,Klinik Desa,New KK,K0040,2.77028,102.96222,FALSE
+1602,SABAH,Kota Marudu,Klinik Desa Tanjong Batu,21-12070311,3.2046929999999998,103.443118,Klinik Desa,New KK,K0158,3.204693,103.443118,FALSE
+2536,SARAWAK,Tanjong Manis,Klinik Kesihatan Paloh,21-13320167,2.187405,103.19559099999999,Klinik Kesihatan,Active,K0431,2.187405,103.195591,FALSE
+2634,SABAH,Kota Belud,Klinik Kesihatan Pulau Mantanani,Akan dikemaskinikan Klinik Kesihatan Pulau Mantanani,0,0,Klinik Kesihatan,New KK,K0447,0,0,FALSE
+2638,SABAH,Tawau,Klinik Kesihatan Pulau Sebatik,Akan dikemaskinikan Klinik Kesihatan Pulau Sebatik,0,0,Klinik Kesihatan,Discontinued,K0448,0,0,FALSE
+2712,SARAWAK,Daro,Klinik Kesihatan Semop,21-13130686,0,0,Klinik Kesihatan,New KK,K0474,0,0,FALSE
+2732,SARAWAK,Serian,Klinik Kesihatan Serian,21-13050685,0,0,Klinik Kesihatan,Active,K0480,0,0,FALSE
+2805,SARAWAK,Kapit,Klinik Kesihatan Sungai Koyan,21-13030207,4.2175700000000003,101.79781,Klinik Kesihatan,Active,K0506,4.21757,101.79781,FALSE
+2835,SARAWAK,Kuching,Klinik Kesihatan Tabuan Jaya Sarawak,Akan dikemaskinikan Klinik Kesihatan Tabuan Jaya Sarawak,0,0,Klinik Kesihatan,New KK,K0511,0,0,FALSE
+2911,SABAH,Tenom,Klinik Kesihatan Tenom,Akan dikemaskinikan Klinik Kesihatan Tenom,0,0,Klinik Kesihatan,New KK,K0535,0,0,FALSE

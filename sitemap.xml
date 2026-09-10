@@ -1,39 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://www.vivekjason.com/projects.html</loc>
-    <lastmod>2026-07-31T01:42:04.835Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.vivekjason.com/cv/cv_onepage_draft.html</loc>
-    <lastmod>2026-07-31T01:42:04.798Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.vivekjason.com/training.html</loc>
-    <lastmod>2026-07-31T01:42:04.836Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.vivekjason.com/cv.html</loc>
-    <lastmod>2026-07-31T01:42:04.798Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.vivekjason.com/about.html</loc>
-    <lastmod>2026-07-31T01:42:04.798Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.vivekjason.com/publications.html</loc>
-    <lastmod>2026-07-31T01:42:04.835Z</lastmod>
+    <loc>https://www.vivekjason.com/writing.html</loc>
+    <lastmod>2026-09-10T06:55:18.305Z</lastmod>
   </url>
   <url>
     <loc>https://www.vivekjason.com/talks.html</loc>
-    <lastmod>2026-07-31T01:42:04.835Z</lastmod>
+    <lastmod>2026-09-10T06:55:18.305Z</lastmod>
   </url>
   <url>
-    <loc>https://www.vivekjason.com/writing.html</loc>
-    <lastmod>2026-07-31T01:42:04.836Z</lastmod>
+    <loc>https://www.vivekjason.com/projects.html</loc>
+    <lastmod>2026-09-10T06:55:18.305Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.vivekjason.com/cv.html</loc>
+    <lastmod>2026-09-10T06:55:17.992Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.vivekjason.com/about.html</loc>
+    <lastmod>2026-09-10T06:55:17.992Z</lastmod>
   </url>
   <url>
     <loc>https://www.vivekjason.com/index.html</loc>
-    <lastmod>2026-07-31T01:42:04.835Z</lastmod>
+    <lastmod>2026-09-10T06:55:18.305Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.vivekjason.com/publications.html</loc>
+    <lastmod>2026-09-10T06:55:18.305Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.vivekjason.com/training.html</loc>
+    <lastmod>2026-09-10T06:55:18.305Z</lastmod>
   </url>
 </urlset>

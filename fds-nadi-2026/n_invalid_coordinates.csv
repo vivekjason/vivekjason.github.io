@@ -1,0 +1,2 @@
+source_row,nadi_id,nadi_name,state,district,address,latitude_raw,longitude_raw,operation_status,latitude,longitude,coordinate_basis,available,valid_coordinates
+116,S132,PPR Taman Sri Semarak,SABAH,Tawau,"PPR Taman Sri Semarak, Blok E, Jalan Kuhara Bt 5, 91000, Tawau, Sabah",2.63392,103.63946,OPEN,2.63392,103.63946,listed coordinates,TRUE,FALSE

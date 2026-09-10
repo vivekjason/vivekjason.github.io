@@ -1,5 +1,8 @@
 project:
   type: website
+  render:
+    - "**/*.qmd"
+    - "!fds-nadi-2026/**"
 
 website:
   title: "Vivek Jason Jayaraj"
@@ -55,6 +58,7 @@ execute:
   freeze: auto
 
 resources:
+  - "fds-nadi-2026/**"
   - CNAME
   - cv/cv_vivekjasonjayaraj_260721.docx
   - images/vivek-hero.webp

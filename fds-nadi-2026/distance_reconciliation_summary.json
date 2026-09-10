@@ -1,0 +1,35 @@
+{
+  "old_records": 112,
+  "current_records": 113,
+  "matched_old_records": 112,
+  "all_nearest_ids_agree_with_independent_haversine": true,
+  "max_sf_haversine_error_metres": 4.334310688136611e-10,
+  "old_export_reproduced_within_rounding": 112,
+  "changed_nearest_names": [],
+  "old_export_reproduction_exceptions": [],
+  "colour_counts": {
+    "red": 104,
+    "yellow": 6,
+    "green": 3
+  },
+  "long_banga": [
+    {
+      "fds_id": "F094",
+      "fds_name": "LONG BANGA",
+      "state": "SARAWAK",
+      "previous_nadi": "Long Banga (Long Beruang)",
+      "previous_km": "0.89",
+      "nearest_nadi": "Long Banga (Long Beruang)",
+      "nearest_nadi_status": "UNDER RELOCATION",
+      "sf_km": "0.8886324815568323",
+      "independent_haversine_km": 0.888632481557024,
+      "sf_haversine_error_metres": 1.9173551635276453e-10,
+      "old_script_reproduced_nadi": "Long Banga (Long Beruang)",
+      "old_script_reproduced_km": 0.8896265599992265,
+      "old_export_reproduction_error_km": 0.00037344000077355055,
+      "difference_from_old_km": -0.0013675184431677367,
+      "nearest_open_nadi": "Bario",
+      "nearest_open_km": "60.0494877537136"
+    }
+  ]
+}

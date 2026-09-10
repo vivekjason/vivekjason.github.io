@@ -1,0 +1,45 @@
+state,named_kk,kk_key,kk_id,match_method,candidates,alias_reason,matched_kk_name,matched_hf_code,matched_latitude,matched_longitude
+SARAWAK,KK Patoh,PATOH,K0408,documented name alias,NA,Nanga prefix omitted in FDS,Klinik Kesihatan Nanga Patoh,21-13140147,1.335922,111.83277
+SARAWAK,KK KARA,KARA,NA,unmatched,K0216 Klinik Kesihatan Daro; K0523 Klinik Kesihatan Tarat; K0180 Klinik Kesihatan Bako,NA,NA,NA,NA,NA
+SARAWAK,KK SKRANG,SKRANG,K0492,exact normalized name,NA,NA,Klinik Kesihatan Skrang,21-13300197,1.280156,111.62453
+SARAWAK,KK STAMANG,STAMANG,K0411,documented name alias,NA,Nanga prefix omitted in FDS,Klinik Kesihatan Nanga Stamang,21-13140253,1.31299,111.94352
+SARAWAK,KK LINGGA,LINGGA,K0324,exact normalized name,NA,NA,Klinik Kesihatan Lingga,21-13300109,1.35271,111.1676
+SARAWAK,KK ENGKELILI,ENGKELILI,K0219,documented name alias,NA,Spelling variant,Klinik Kesihatan Engkilili,21-13140073,1.137979,111.638972
+SARAWAK,KK PANTU,PANTU,K0435,exact normalized name,NA,NA,Klinik Kesihatan Pantu,21-13300169,1.142232,111.117207
+SARAWAK,KLINIK KESIHATAN NANGA KARA,NANGAKARA,K0397,exact normalized name,NA,NA,Klinik Kesihatan Nanga Kara,21-13210160,1.91616,111.73739
+SARAWAK,KK PAKAN,PAKAN,K0430,exact normalized name,NA,NA,Klinik Kesihatan Pakan,21-13210166,1.88636,111.6765
+SARAWAK,KK SEKALONG,SEKALONG,K0467,exact normalized name,NA,NA,Klinik Kesihatan Sekalong,21-13080186,1.90385,111.85042
+SARAWAK,KK JULAU,JULAU,K0282,exact normalized name,NA,NA,Klinik Kesihatan Julau,21-13080078,2.02596,111.91293
+SARAWAK,KK NANGA TIGA,NANGATIGA,K0416,exact normalized name,NA,NA,Klinik Kesihatan Nanga Tiga,21-13040162,1.60815,111.69755
+SARAWAK,KK NANGA MAONG,NANGAMAONG,K0358,documented name alias,NA,Maong name with alternative local name in KK register,Klinik Kesihatan Maong (Mujok),21-13080145,1.73997,112.03309
+SARAWAK,KK NANGA ENSIRING,NANGAENSIRING,K0389,exact normalized name,NA,NA,Klinik Kesihatan Nanga Ensiring,21-13080158,1.66321,112.03503
+SARAWAK,KK NANGA ENTABAI,NANGAENTABAI,K0390,exact normalized name,NA,NA,Klinik Kesihatan Nanga Entabai,21-13080134,1.792228,111.921208
+SARAWAK,KK NANGA ENTAIH,NANGAENTAIH,K0391,exact normalized name,NA,NA,Klinik Kesihatan Nanga Entaih,21-13210135,1.68977,111.76232
+SARAWAK,KK SELANGAU,SELANGAU,K0470,exact normalized name,NA,NA,Klinik Kesihatan Selangau,21-13250188,2.527674,112.32911
+SARAWAK,KK TATAU,TATAU,K0524,exact normalized name,NA,NA,Klinik Kesihatan Tatau,21-13310214,2.88134,112.85431
+SARAWAK,KK SEKUAU,SEKUAU,K0469,exact normalized name,NA,NA,Klinik Kesihatan Sekuau,21-13250149,2.351784,112.128064
+SARAWAK,KK MACHAN,MACHAN,K0355,exact normalized name,NA,NA,Klinik Kesihatan Machan,21-13090121,2.01494,112.02013
+SARAWAK,PKD KANOWIT,PKDKANOWIT,NA,unmatched,K0288 Klinik Kesihatan Kapit; K0424 Klinik Kesihatan Pa' Dallih; K0426 Klinik Kesihatan Padawan,NA,NA,NA,NA,NA
+SARAWAK,KK MENALUN,MENALUN,K0409,documented name alias,NA,Menalun explicitly appears as alternative name in KK register,Klinik Kesihatan Nanga Poi (Menalun),21-13090148,2.033117,112.261047
+SARAWAK,KK NANGA JAGAU,NANGAJAGAU,K0396,exact normalized name,NA,NA,Klinik Kesihatan Nanga Jagau,21-13090159,1.8596,112.30601
+SARAWAK,KK KAPIT,KAPIT,K0288,exact normalized name,NA,NA,Klinik Kesihatan Kapit,21-13100081,2.01164,112.92896
+SARAWAK,KK BELAGA,BELAGA,K0196,exact normalized name,NA,NA,Klinik Kesihatan Belaga,21-13030058,2.70662,113.78298
+SARAWAK,KK TUBAU,TUBAU,K0547,exact normalized name,NA,NA,Klinik Kesihatan Tubau,21-13400224,3.160199,113.701678
+SARAWAK,KK SEBAUH,SEBAUH,K0465,exact normalized name,NA,NA,Klinik Kesihatan Sebauh,21-13400184,3.11049,113.26816
+SARAWAK,KK SUNGAI ASAP,SUNGAIASAP,K0505,exact normalized name,NA,NA,Klinik Kesihatan Sungai Asap,21-13030206,3.04448,113.915865
+SARAWAK,KK BARIO,BARIO,K0185,exact normalized name,NA,NA,Klinik Kesihatan Bario,21-13190047,3.74052,115.46723
+SARAWAK,KK LONG LELLANG,LONGLELLANG,K0337,exact normalized name,NA,NA,Klinik Kesihatan Long Lellang,21-13190102,3.420979,115.153885
+SARAWAK,KK LONG BEDIAN,LONGBEDIAN,K0329,exact normalized name,NA,NA,Klinik Kesihatan Long Bedian,21-13380098,3.794918,114.732075
+SARAWAK,KK LIO MATO,LIOMATO,K0326,exact normalized name,NA,NA,Klinik Kesihatan Lio Mato,21-13380110,3.169665,115.221629
+SARAWAK,KK PA DALIH,PADALIH,K0424,documented name alias,NA,Spelling and punctuation variant,Klinik Kesihatan Pa' Dallih,21-13190255,3.567309,115.553627
+SARAWAK,KK LONG MOH,LONGMOH,K0340,exact normalized name,NA,NA,Klinik Kesihatan Long Moh,21-13380347,3.056713,115.076194
+SARAWAK,KK LONG BANGA,LONGBANGA,K0328,exact normalized name,NA,NA,Klinik Kesihatan Long Banga,21-13190111,3.20551,115.39137
+SARAWAK,KK LONG JEKITAN,LONGJEKITAN,K0334,exact normalized name,NA,NA,Klinik Kesihatan Long Jekitan,21-13380395,3.263121,114.859131
+SARAWAK,KK LONG JEEH,LONGJEEH,K0332,exact normalized name,NA,NA,Klinik Kesihatan Long Jeeh,21-13380099,2.98311,114.95786
+SARAWAK,KK LONG LAMA,LONGLAMA,K0336,exact normalized name,NA,NA,Klinik Kesihatan Long Lama,21-13380113,3.762499,114.405176
+SARAWAK,KK LONG SAN,LONGSAN,K0345,exact normalized name,NA,NA,Klinik Kesihatan Long San,21-13380107,3.29568,114.78221
+SARAWAK,KK LONG LOYANG,LONGLOYANG,K0338,exact normalized name,NA,NA,Klinik Kesihatan Long Loyang,21-13370114,3.448402,114.116675
+SARAWAK,KK LONG SERIDAN,LONGSERIDAN,K0347,exact normalized name,NA,NA,Klinik Kesihatan Long Seridan,21-13190348,3.973911,115.069158
+SARAWAK,KK LONG SEMADOH,LONGSEMADOH,K0346,exact normalized name,NA,NA,Klinik Kesihatan Long Semadoh,21-13120115,4.215724,115.589957
+SARAWAK,PKB LIMBANG,PKBLIMBANG,NA,unmatched,K0318 Klinik Kesihatan Labang; K0539 Klinik Kesihatan Tg.Embang; K0190 Klinik Kesihatan Batu Lintang,NA,NA,NA,NA,NA
+SABAH,NA,NA,NA,missing named KK,NA,NA,NA,NA,NA,NA
